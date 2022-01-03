@@ -1,0 +1,58 @@
+# Ignore user data in plugins
+/plugins/Essentials/warps/
+/plugins/Essentials/usermap.csv
+/plugins/Essentials/userdata/
+/plugins/Essentials/userdata-npc-backup/
+/plugins/WorldEdit/sessions/
+/plugins/LiteBans/litebans.mv.db
+/plugins/RejoinRewards/data/
+/plugins/GriefPreventionData/ClaimData/
+/plugins/GriefPreventionData/PlayerData/
+/plugins/CoreProtect/database.db
+/plugins/Expeditions/data/
+/plugins/HolographicDisplays/database.yml
+/plugins/MMOCore/userdata/
+/plugins/MythicMobs/SavedData/
+/plugins/LWCTrust/trusts/
+/plugins/ChunkyBorder/borders.json
+/plugins/AureliumSkills/regiondata/
+
+# Ignore bloat in plugins
+/plugins/ChatCore/Chat Logs/
+/plugins/ChatCore/Command Logs/
+/plugins/LuckPerms/libs/
+/plugins/WorldEdit/.archive-unpack/
+/plugins/WorldGuard/cache/
+/plugins/Pl3xMap/data/
+/plugins/Pl3xMap/web/
+/plugins/LiteBans/lib/
+/plugins/LiteBans/.version/
+/plugins/GriefPreventionData/Logs/
+/plugins/BuycraftX/cache/
+/plugins/Votifier/rsa/
+
+# Ignore worlds
+!worlds/
+worlds/*
+!worlds/world/
+worlds/world/*
+!worlds/world/datapacks/
+worlds/world/datapacks/*
+!worlds/world/datapacks/semivanillamc
+
+application/language/*
+!application/language/gr/
+
+
+# Ignore root directory user data files
+/*.json
+
+# Ignore root directory bloat files
+/.console_history
+/versions/
+/logs/
+/libraries/
+/cache/
+
+# Ignore jars
+*.jar
