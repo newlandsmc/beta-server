@@ -30,9 +30,9 @@ rtp-on-first-join:
 # The world given for `world` MUST be listed as an `enabled-world` in the given rtpSettings.
 rtp-on-death:
   enabled: true
-  settings: 'random-death-overworld'
+  settings: 'random-death'
   respect-beds: false
-  respect-anchors: false
+  respect-anchors: true
   require-permission: false
 
 #### location-cache-filler
