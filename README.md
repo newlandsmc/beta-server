@@ -1,7 +1,9 @@
 # SemiVanilla MC
 
-This repo contains the actual server configs. Do not touch.
+Thie repo contains the configs for the TEST server.
 
-In theory this can be pulled down to restore a blank-slate new instance of the server at any point. We'll see how that goes... the .gitignore is going to get complicated, fast.
+Differences between servers while testing are, of course, necessary. But they should either be implemented in prod or reverted, not left in test forever (causing drift). **This server should be kept identical to the production server at all times. Drift is important to avoid.**
 
-Note: Jars will have to be re-downloaded! [Server wiki](https://github.com/SemiVanilla-MC/wiki) listing active plugins and server version should be kept updated!
+There are a few necessary changes to make the test server work on different hardware and identify itself as the test server.
+
+If this is used for deploying a new copy of the server - jars will have to be re-downloaded! [Server wiki](https://github.com/SemiVanilla-MC/wiki) listing active plugins and server version should be kept updated!
