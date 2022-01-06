@@ -105,6 +105,192 @@ settings:
         max-packet-rate: 5.0
         action: DROP
 world-settings:
+  world:
+    feature-seeds:
+      amethyst_geode: 2447679147172021731
+      ore_gold: -6220997070359073464
+      ore_clay: 1349626011617133516
+      ore_diorite: 1348253870431243511
+      ice_spike: -8009776642705140939
+      moss_patch_bonemeal: 1494147023302269548
+      glowstone_extra: 6558340311249510729
+      patch_waterlily: -3080478519206546211
+      crimson_fungus_planted: 4737637168251219167
+      patch_melon: -8042268615631739074
+      fancy_oak_bees_0002: 8525569881672588885
+      dark_oak: 4327594441281782988
+      pile_pumpkin: -5175644389215937978
+      trees_sparse_jungle: -1166590167277485078
+      moss_patch: 6316513810058756493
+      ore_redstone: 1577513559183848838
+      trees_plains: 5957558161648537354
+      ore_infested: 1949241680779489412
+      nether_sprouts_bonemeal: -6558438601122914707
+      clay_with_dripleaves: 4123721178689137173
+      ore_copper_small: -6311394901135471120
+      oak: 7788642528581466931
+      super_birch_bees_0002: -2402705349152274475
+      patch_tall_grass: -4627127057483734743
+      warm_ocean_vegetation: 8098289490686437455
+      pointed_dripstone: -4662165483904403306
+      iceberg_packed: -1769437154630878002
+      seagrass_simple: 5203478122737577551
+      ore_gravel_nether: -939686936936374206
+      end_gateway_delayed: 1387158810287459452
+      chorus_plant: -2542532812948554877
+      ore_gravel: 2499558614503030883
+      single_piece_of_grass: -2535349494922696660
+      patch_sunflower: -4931230438824776259
+      ore_diamond_small: 6507599760631455166
+      ore_andesite: 2193653239562138736
+      flower_default: 4546691340125500999
+      patch_brown_mushroom: 7833307695276347966
+      freeze_top_layer: -3384133993985004569
+      super_birch_bees: -2204717800773033991
+      small_basalt_columns: -2485622136648635017
+      trees_water: -7434264854323762330
+      forest_rock: -9162269286671470494
+      ore_magma: -7168809798313349802
+      bonus_chest: 2623408390402740688
+      twisting_vines_bonemeal: -3894525980258300303
+      void_start_platform: 49109562094840453
+      huge_brown_mushroom: -2200133576619132680
+      cave_vine_in_moss: -3918981432586942154
+      flower_swamp: -6065888268284841082
+      patch_crimson_roots: 261989586963204845
+      blackstone_blobs: 3683638024204013692
+      spring_lava_frozen: 1184359565651487825
+      trees_taiga: -3533329598610973294
+      patch_red_mushroom: 2247831026765405217
+      spring_nether_closed: 3666867967962651061
+      trees_old_growth_spruce_taiga: 5673820696390474933
+      birch_bees_0002: -7107306087562908298
+      cave_vine: 8815680313899445903
+      birch_tall: -7309656104660312481
+      mega_spruce: 4149602054646051493
+      huge_red_mushroom: -7006208841269934031
+      meadow_trees: 7421832293983342331
+      lush_caves_clay: 7297979831966786334
+      oak_bees_0002: 580731271229927696
+      lake_lava: 3401854798064101213
+      spring_water: -8625600276498823096
+      patch_grass: -1509200088603135252
+      vines: -9017266077628666460
+      patch_soul_fire: -8982316871821651397
+      kelp: -5959542235393285740
+      fancy_oak: 899742682385520523
+      ore_blackstone: 1067068323605742333
+      spruce: -3095207279360076968
+      desert_well: 1647251785861664968
+      dark_forest_vegetation: 5408649112438274810
+      dripleaf: -522541485034981097
+      underwater_magma: 5020364536816347846
+      ore_gold_buried: 1716388711014520781
+      monster_room: -4689963449943045992
+      pine: -5676373359828226882
+      large_dripstone: -1348866339014455550
+      birch_bees_005: -6552322597993206693
+      dripstone_cluster: 3182829669087089062
+      fossil_diamonds: -5461037152374631628
+      birch_bees_002: 2632811324424709031
+      crimson_forest_vegetation: -7964289348484577923
+      mushroom_island_vegetation: -2180300470636905425
+      warped_forest_vegetation_bonemeal: 5068609807382547393
+      mega_pine: 7125161447470907795
+      ore_tuff: 3180871519455059812
+      large_basalt_columns: 9132393076916349600
+      moss_patch_ceiling: -5648201357727049997
+      mega_jungle_tree: 7731172152182858092
+      jungle_tree_no_vine: 6883789770852132703
+      ore_diamond_large: 256355772438347454
+      sea_pickle: -5642247847454194587
+      pile_snow: -8441679898996511538
+      ore_emerald: 2209699084978411133
+      ore_granite: -6742177632850188389
+      patch_sugar_cane: 3960999965424551370
+      trees_old_growth_pine_taiga: 333980838474858662
+      trees_jungle: -4340380960768426170
+      patch_fire: -7669812565812872152
+      trees_savanna: -2573517976021646081
+      delta: -5688597087065451756
+      flower_flower_forest: -8201832481211913808
+      warped_forest_vegetation: 1639463903242119152
+      glow_lichen: 5309520355123468677
+      fancy_oak_bees: 4163779672033998064
+      seagrass_slightly_less_short: 8211964721738314581
+      disk_clay: 3880844974173767212
+      pile_hay: -9220742442676122634
+      spring_lava_nether: -7486666645605124806
+      trees_grove: -122056375206472713
+      ice_patch: -2883071558286711379
+      warped_fungus: 7666366305383996917
+      trees_windswept_hills: 3606689280801328631
+      end_gateway_return: -1397091049994392816
+      crimson_forest_vegetation_bonemeal: -1196791528383870768
+      oak_bees_002: 4452080845491496310
+      bamboo_no_podzol: 1061993337524205571
+      ore_iron: -8322537837174924461
+      disk_sand: 9128920792420711413
+      warped_fungus_planted: 2458159154995330547
+      fancy_oak_bees_005: 5452358562009762195
+      ore_lapis_buried: -770261965288324354
+      oak_bees_005: -4817928184688877204
+      seagrass_mid: 2792320612115823843
+      ore_nether_gold: -1091633177789019709
+      acacia: -4949504941172742775
+      ore_copper_large: 612333357275137960
+      trees_flower_forest: 2318768295417350532
+      end_spike: -3538531306334907350
+      trees_birch_and_oak: -7655233788214913502
+      disk_gravel: -8510637148053923251
+      iceberg_blue: 3715193246286577530
+      spring_lava_overworld: -7819615491020711268
+      ore_lapis: -2411222158308501233
+      ore_ancient_debris_large: 123994645681003858
+      basalt_blobs: -62351828383820093
+      pile_ice: 4980485029882127005
+      fancy_oak_bees_002: 7438493596914779904
+      ore_soul_sand: 6960760222499856967
+      patch_cactus: -6036248610685511645
+      jungle_bush: 7686487901863225516
+      end_island: 8020207285188464658
+      weeping_vines: -3137665677068118450
+      patch_large_fern: 4619707824458182830
+      ore_diamond_buried: -1023644635140551071
+      blue_ice: -3176888734105680278
+      ore_coal: -5975031092768220631
+      swamp_oak: 7290586448053749630
+      spore_blossom: -195645149865884049
+      forest_flowers: -2891616103868230714
+      bamboo_some_podzol: 1155499012769181739
+      pile_melon: -7374119964294603646
+      ore_iron_small: -4025179904627351609
+      seagrass_short: -6023797988870889554
+      rooted_azalea_tree: -1249484269674711554
+      bamboo_vegetation: 7397330182947737793
+      flower_plain: 5152003609221659068
+      patch_grass_jungle: 8672287311115875891
+      seagrass_tall: 4613862241816600835
+      basalt_pillar: 5821421540533764038
+      patch_pumpkin: 8533472668652034372
+      fossil_coal: -3853698968925084476
+      moss_vegetation: 188720816497847883
+      birch: 1936372826294327065
+      ore_ancient_debris_small: -626014003408940686
+      jungle_tree: -1809471446984466672
+      ore_coal_buried: -9022016172526982911
+      patch_berry_bush: 2818849238664675287
+      nether_sprouts: -1550606278778905959
+      flower_meadow: 7175970753923063935
+      spring_nether_open: -1515725326859389478
+      patch_dead_bush: 7558944892217834944
+      ore_quartz: 1418626088060797270
+      twisting_vines: 8548764887875584510
+      crimson_fungus: 2149262599440954394
+      patch_taiga_grass: -4994445049236450222
+      clay_pool_with_dripleaves: 8528530613176378601
+      azalea_tree: 5266815600360753220
+      ore_dirt: -6854832091321851877
   default:
     monster-spawn-max-light-level: -1
     mob-spawner-tick-rate: 1
@@ -149,7 +335,7 @@ world-settings:
     keep-spawn-loaded: false
     anti-xray:
       enabled: true
-      engine-mode: 2
+      engine-mode: 1
       max-block-height: 64
       update-radius: 2
       lava-obscures: false
@@ -183,7 +369,7 @@ world-settings:
     skeleton-horse-thunder-spawn-chance: 0.01
     parrots-are-unaffected-by-player-movement: false
     disable-explosion-knockback: false
-    fix-climbing-bypassing-cramming-rule: false
+    fix-climbing-bypassing-cramming-rule: true
     remove-corrupt-tile-entities: false
     fixed-chunk-inhabited-time: -1
     allow-non-player-entities-on-scoreboards: false
@@ -194,7 +380,7 @@ world-settings:
       vindicator:
       - NORMAL
       - HARD
-    prevent-moving-into-unloaded-chunks: false
+    prevent-moving-into-unloaded-chunks: true
     baby-zombie-movement-modifier: 0.5
     use-vanilla-world-scoreboard-name-coloring: false
     spawn-limits:
@@ -256,28 +442,28 @@ world-settings:
     despawn-ranges:
       monster:
         soft: 32
-        hard: 128
+        hard: 112
       creature:
         soft: 32
-        hard: 128
+        hard: 112
       ambient:
         soft: 32
-        hard: 128
+        hard: 112
       axolotls:
         soft: 32
-        hard: 128
+        hard: 112
       underground_water_creature:
         soft: 32
-        hard: 128
+        hard: 112
       water_creature:
         soft: 32
-        hard: 128
+        hard: 112
       water_ambient:
         soft: 32
         hard: 64
       misc:
         soft: 32
-        hard: 128
+        hard: 112
     fishing-time-range:
       MinimumTicks: 100
       MaximumTicks: 600
@@ -286,7 +472,7 @@ world-settings:
       delay:
         min: 20
         max: 40
-    max-entity-collisions: 8
+    max-entity-collisions: 3
     lootables:
       auto-replenish: true
       restrict-player-reloot: true
@@ -312,7 +498,7 @@ world-settings:
     treasure-maps-return-already-discovered: false
     generator-settings:
       flat-bedrock: false
-    armor-stands-tick: false
+    armor-stands-tick: true
     disable-teleportation-suffocation-check: false
     delay-chunk-unloads-by: 10s
     entity-per-chunk-save-limit:
@@ -323,11 +509,18 @@ world-settings:
       fireball: -1
       small_fireball: -1
     feature-seeds:
-      generate-random-seeds-for-all: false
+      generate-random-seeds-for-all: true
     alt-item-despawn-rate:
-      enabled: false
+      enabled: true
       items:
-        COBBLESTONE: 300
+        COBBLESTONE: 600
+        COBBLED_DEEPSLATE: 600
+        NETHERRACK: 600
+        ROTTEN_FLESH: 600
+        ENDER_PEARL: 600
+        BONE: 600
+        CACTUS: 600
+        EGG: 600
     tick-rates:
       sensor:
         villager:
@@ -336,16 +529,391 @@ world-settings:
         villager:
           validatenearbypoi: -1
   world_nether:
+    feature-seeds:
+      ore_diamond_large: -3623213866355909835
+      patch_grass: 910047502717305838
+      oak: -4283713944013626623
+      warped_fungus: -8992337804640873359
+      patch_taiga_grass: 2594428291924770000
+      swamp_oak: 3774518913162603351
+      trees_water: -8370221951042725770
+      ore_coal: 5466736102138270175
+      patch_brown_mushroom: -1211561100031787139
+      ore_nether_gold: 7890826104588497226
+      pile_ice: -5012949822703859607
+      moss_vegetation: -5117258970539449663
+      spruce: -6896611416345435675
+      monster_room: -3545304765504132071
+      trees_old_growth_pine_taiga: -6943322650596153024
+      ore_dirt: -940289465152019805
+      trees_jungle: -165236419399595044
+      basalt_pillar: -72438233340647137
+      patch_grass_jungle: -862570665213464176
+      fancy_oak: 3243475474778853841
+      ore_copper_small: 6330601538331248195
+      fossil_diamonds: 4521604445417037469
+      crimson_fungus_planted: -3423216170011975281
+      trees_birch_and_oak: -7303142102899334654
+      azalea_tree: -8729282907831251101
+      birch_bees_0002: 4513498963682390645
+      dark_oak: -6465965090674744159
+      ore_quartz: -5442449216093383152
+      sea_pickle: 5107638414590803281
+      super_birch_bees: -3929292082036864061
+      flower_plain: 8394417697384020742
+      bamboo_vegetation: 5414200182198588580
+      nether_sprouts_bonemeal: 3502785896641216173
+      rooted_azalea_tree: 7195475900730022454
+      lush_caves_clay: -910991550538964072
+      trees_savanna: 2542325350945750272
+      ore_granite: -9117097784215615049
+      large_dripstone: -6609607462529845168
+      trees_sparse_jungle: 2806459722536755425
+      freeze_top_layer: -5158860148663324979
+      ore_clay: 6390570017565504469
+      single_piece_of_grass: -6052441392611497776
+      moss_patch_ceiling: 106826741634652828
+      weeping_vines: -5725861373919453189
+      iceberg_blue: 8298014929476012212
+      spring_lava_frozen: -2082022231752451035
+      vines: 1945896043602010228
+      small_basalt_columns: -606923192127521701
+      spore_blossom: -4859345520002991189
+      warm_ocean_vegetation: -118057790707759348
+      glow_lichen: -4138695785787400897
+      ore_gravel_nether: 1893474880628767290
+      ore_ancient_debris_small: -7156163509431939622
+      patch_melon: 810248606877718549
+      seagrass_simple: -8437463446915411376
+      patch_red_mushroom: 198346204393666870
+      ore_gold_buried: -4094568093942489670
+      ore_ancient_debris_large: -8833501687614598775
+      trees_windswept_hills: 3236860912126726332
+      ore_diamond_buried: -8992616394678243022
+      super_birch_bees_0002: 4662888941511719030
+      ore_emerald: 3872148667089618982
+      kelp: 7514219047573578723
+      pile_snow: -6784728572969549735
+      jungle_tree: 3746963341303661722
+      fancy_oak_bees_005: 119790818097400485
+      chorus_plant: 5967516976340220628
+      end_gateway_delayed: 7090681629148593821
+      spring_nether_closed: 7568292926384649488
+      fancy_oak_bees_002: 6740770382434616040
+      ore_blackstone: 3570247890036832278
+      clay_with_dripleaves: 1106864624592446330
+      patch_large_fern: -3216105476139319800
+      seagrass_tall: 3231407142584837149
+      disk_sand: 4610524653859570766
+      patch_fire: 7874042682218636060
+      patch_soul_fire: -1045653455154755204
+      patch_berry_bush: 6725711359005217631
+      patch_sunflower: -4693965415686269543
+      ore_gravel: 8219926683898824087
+      disk_gravel: 794818251200010080
+      flower_meadow: 1158250849816195199
+      ore_infested: 1731416678921784051
+      birch_bees_005: -317847491878282735
+      pine: -729544810508508520
+      birch_bees_002: 3548257297762986824
+      seagrass_mid: 8343756364756517751
+      crimson_forest_vegetation_bonemeal: -7449741298272863311
+      warped_forest_vegetation: 8085129206018925774
+      trees_grove: -4643706500180399495
+      glowstone_extra: 3926049143116534530
+      spring_lava_overworld: 3922050185629622098
+      oak_bees_005: 8298183526672415410
+      dark_forest_vegetation: -8888676966590202230
+      basalt_blobs: 1427102249479341929
+      ore_gold: -8837640166077826467
+      oak_bees_002: 6433504188465446774
+      ore_diorite: -4355686185284608977
+      warped_forest_vegetation_bonemeal: -3509023250682682465
+      crimson_forest_vegetation: -2271950382258847994
+      patch_dead_bush: -6571846472632932574
+      jungle_bush: -4106811489925104389
+      bamboo_no_podzol: 8514342265581738963
+      ore_magma: -4092167420105050973
+      warped_fungus_planted: -7655433993089266082
+      blue_ice: 3885340858750681080
+      forest_flowers: 3669935694498388962
+      cave_vine: 3304631117691714470
+      ore_lapis_buried: -4286981142167865400
+      bonus_chest: 5575894006248355994
+      ore_lapis: 9109799701559442477
+      large_basalt_columns: 7530370465757979743
+      pile_melon: 116070676310829517
+      ore_andesite: -8675712120493770312
+      spring_water: 2059637902064403499
+      birch: 4721621783801900427
+      patch_cactus: -7318862985719450689
+      void_start_platform: 793635807107463446
+      huge_brown_mushroom: -1214348217273488006
+      crimson_fungus: 6350813207250257766
+      ore_copper_large: -4391170201576531231
+      ore_diamond_small: -6690159966368172832
+      trees_taiga: -1162020964526598145
+      flower_flower_forest: -1244826891993899926
+      patch_crimson_roots: -9214557399516806968
+      ore_coal_buried: -4945099181437836739
+      iceberg_packed: 3086685995721012803
+      fossil_coal: -337335339347604677
+      end_gateway_return: 6496677789137443759
+      pointed_dripstone: 2127438076327073546
+      mega_pine: -5572315623665423673
+      blackstone_blobs: 2466687616841580663
+      patch_pumpkin: 7984152222291279822
+      patch_waterlily: 2634194150328468112
+      ore_redstone: -4698454190822511548
+      spring_lava_nether: 8976275474325780149
+      fancy_oak_bees: -6560807091928705250
+      trees_flower_forest: -3441809566086371354
+      disk_clay: -3717017614457059265
+      patch_sugar_cane: -1884749170900621848
+      cave_vine_in_moss: -6607025232149429428
+      lake_lava: -7013104241639502408
+      patch_tall_grass: 8686852733054843914
+      underwater_magma: -5509464956033086817
+      amethyst_geode: 1996315596931262916
+      ore_soul_sand: -7765625267723228435
+      fancy_oak_bees_0002: 9067886763812529781
+      oak_bees_0002: -5636486212828720007
+      trees_old_growth_spruce_taiga: -3640702056223978130
+      twisting_vines_bonemeal: -7579885236849189463
+      ice_spike: 4548678147211228531
+      dripstone_cluster: 3208507332052332070
+      seagrass_slightly_less_short: 2678077628718160515
+      moss_patch: -4452174166429947122
+      forest_rock: 1652569266748265247
+      meadow_trees: -6875089489962901395
+      flower_default: 3357442472497440351
+      twisting_vines: 3301283686087006777
+      birch_tall: 1688826232224649360
+      ore_tuff: -3529504661157492466
+      spring_nether_open: -6855758575220039315
+      moss_patch_bonemeal: -1182215722837164562
+      ore_iron: 4757812956960885548
+      pile_hay: -3953962119131231544
+      end_spike: 8418141488067086818
+      acacia: -5321374109368371828
+      pile_pumpkin: -8625409486099019578
+      desert_well: 2934536766417562644
+      mega_jungle_tree: 9000799114949199959
+      end_island: 8078513655055710845
+      seagrass_short: 8136285044642041315
+      bamboo_some_podzol: 5670716673721668980
+      huge_red_mushroom: 8331584373167846522
+      ice_patch: 2159115770035766383
+      nether_sprouts: 676057420397006588
+      jungle_tree_no_vine: 3421757921802471384
+      clay_pool_with_dripleaves: 1740040396924280160
+      trees_plains: -4560201421855106894
+      dripleaf: 358550734931517997
+      mega_spruce: 3569916116814393774
+      mushroom_island_vegetation: 2769151297086383166
+      ore_iron_small: -8834601762526628089
+      delta: -113626789572845511
+      flower_swamp: 2117622684594671710
     anti-xray:
       max-chunk-section-index: 7
       max-block-height: 128
       hidden-blocks:
       - ancient_debris
       - nether_gold_ore
+      - glowstone
+      - bone_block
+      - magma_block
+      - nether_bricks
+      - polished_blackstone_bricks
       - nether_quartz_ore
       replacement-blocks:
       - netherrack
     grass-spread-tick-rate: 3
   world_the_end:
+    feature-seeds:
+      patch_red_mushroom: 2067035723672806625
+      seagrass_slightly_less_short: -7915363603063760001
+      fossil_diamonds: 5006211452027856393
+      trees_water: 362564966997660060
+      vines: 8627036495141572815
+      trees_savanna: -7204634841952860769
+      super_birch_bees: 6772855602698639156
+      patch_grass: -1207080325434139260
+      patch_berry_bush: 4285137851392197754
+      warped_forest_vegetation: -5850864544431795354
+      iceberg_blue: -2415810513111843621
+      ore_blackstone: -3955592583430699925
+      rooted_azalea_tree: -6483663017238385415
+      moss_patch_ceiling: 7855487710837365269
+      end_gateway_delayed: 1363012951176395681
+      warped_forest_vegetation_bonemeal: 7328260155483532518
+      ore_ancient_debris_large: -3433994962307402871
+      trees_sparse_jungle: -2886463982772508024
+      small_basalt_columns: 22959463783181510
+      fancy_oak_bees_0002: -5250688148599638312
+      large_dripstone: 5980889551337817799
+      patch_crimson_roots: 4401971866710598627
+      flower_meadow: 8764831130311263260
+      meadow_trees: -377433186010471877
+      ore_gold_buried: 6725656848060692718
+      moss_vegetation: -7215158896293798554
+      dripstone_cluster: -7414594292185303196
+      flower_default: -4240013369818163159
+      patch_fire: -3349409903210508125
+      azalea_tree: 5501987738477379108
+      seagrass_mid: 3870624446882853717
+      blue_ice: 6375306927841448796
+      seagrass_tall: -5860932543441532531
+      ice_patch: -3632670257963571931
+      patch_soul_fire: -1550661509602864024
+      oak_bees_005: -9018462029441750377
+      spring_nether_open: -9192368007908319761
+      patch_taiga_grass: -9088318712938531763
+      swamp_oak: 1571010922971528101
+      oak_bees_002: 4452103143502155648
+      ore_diamond_large: 2866629729452657319
+      warped_fungus: 5749179067903903652
+      jungle_tree: 776312050971304040
+      basalt_blobs: -2574428303707449888
+      clay_with_dripleaves: 1028873751038602994
+      ore_gravel_nether: 6669720999716077057
+      crimson_fungus_planted: -1279355994411266145
+      glow_lichen: 3146178771585044374
+      spring_lava_nether: 5931493842430126588
+      ore_diorite: -7282708597653697175
+      spruce: 4572064686875258919
+      trees_windswept_hills: -4789746070954153193
+      birch: -1703459574130126694
+      lake_lava: -3032118793273651533
+      pile_melon: 9030651700419014916
+      large_basalt_columns: -5347314088849680140
+      flower_flower_forest: 1043271442496948154
+      freeze_top_layer: -6363826178780429664
+      underwater_magma: 3899145398402926097
+      patch_cactus: -4421388265817975975
+      cave_vine: -8539997058341789493
+      trees_old_growth_pine_taiga: -1612065959454449403
+      ore_gold: -8400469908553464037
+      birch_bees_002: 2305955369878800840
+      birch_bees_005: 865543992204965789
+      crimson_forest_vegetation: 6761318823122243561
+      ore_nether_gold: 6762712721839623766
+      spring_nether_closed: -6461967713274035206
+      ore_magma: -1346718249098371555
+      cave_vine_in_moss: 2178822691530913879
+      ore_coal: -3847224015502733091
+      pile_snow: 7041027577030423150
+      oak: 2597137071128098942
+      end_gateway_return: 9080071085993951468
+      mega_jungle_tree: -5919288379990156160
+      ore_redstone: -4618509870008394899
+      lush_caves_clay: -2788251785133854195
+      trees_old_growth_spruce_taiga: -4424526677391164384
+      flower_plain: -6742906661402180405
+      delta: -1541391527495404365
+      ore_quartz: 3843115740147569528
+      bonus_chest: 1113461572276223323
+      patch_melon: -8988509236845965117
+      ore_emerald: 5300411508747581364
+      fancy_oak: -6147758722913096535
+      mushroom_island_vegetation: -5674112321391748690
+      birch_bees_0002: -61558694371325010
+      ore_coal_buried: -2329078635435995154
+      chorus_plant: 2260157405624316312
+      forest_flowers: -6629203177596917242
+      mega_pine: 8308447653524348209
+      ore_dirt: 9128035280501837338
+      disk_gravel: 8160724824210600111
+      glowstone_extra: -2947428492592500568
+      ore_lapis_buried: -2771262528051818864
+      crimson_fungus: 6645395515008687640
+      ore_infested: -9189113737305737786
+      dark_oak: 3284239963042762403
+      ore_ancient_debris_small: -449674804241326472
+      bamboo_no_podzol: 2458179156582800557
+      moss_patch: -8317807169208315717
+      birch_tall: 5069124772848478844
+      blackstone_blobs: -335544050581524481
+      mega_spruce: -1395125548749263219
+      patch_waterlily: 720809992395818057
+      patch_large_fern: -115442722169629880
+      spring_lava_frozen: 4222063616365369858
+      ore_clay: -3956148249061824876
+      trees_grove: 2351135373495876535
+      end_island: 1763504481219512875
+      trees_birch_and_oak: -5432385420193110819
+      fancy_oak_bees: 8990313378884360068
+      huge_red_mushroom: 1582965127744838554
+      pile_pumpkin: 7402740848248633422
+      dark_forest_vegetation: 677317409791962516
+      patch_dead_bush: 3194162104329548210
+      trees_plains: -7014745368881619349
+      warped_fungus_planted: -3600781174896681988
+      trees_taiga: 7134276635933826585
+      pile_ice: 3953699499761410069
+      ore_granite: 4813828843914191792
+      desert_well: -2427220255869383947
+      ore_lapis: -7892019194380650361
+      ore_gravel: 5073392061116316283
+      patch_tall_grass: 5270739563826415440
+      ore_copper_large: -9107141887317160402
+      flower_swamp: -3752524777134619698
+      warm_ocean_vegetation: 564999398882016207
+      crimson_forest_vegetation_bonemeal: 6052174499459493609
+      disk_sand: 7483028898204634355
+      bamboo_some_podzol: 7042487045492369412
+      iceberg_packed: -6757423264823255402
+      ice_spike: -2042262560603753436
+      spring_lava_overworld: -6428757855059610018
+      kelp: 8889059647395767430
+      ore_iron: 1754715050165567763
+      end_spike: 787052166636982849
+      pointed_dripstone: 3555013013557093088
+      weeping_vines: 3725715173647836789
+      ore_andesite: 9119982288399897008
+      twisting_vines: -3750357441066476541
+      oak_bees_0002: -2788822030747962829
+      twisting_vines_bonemeal: 3476077775819535364
+      ore_soul_sand: -2003212603598816499
+      ore_copper_small: 8150031912164923888
+      acacia: 5519264716031688702
+      dripleaf: 6340634190492976435
+      forest_rock: 5042615263790297198
+      trees_flower_forest: 7888616608591931944
+      ore_diamond_small: 9134248937189189571
+      disk_clay: -7116214486875995957
+      patch_sugar_cane: -8231899685624524630
+      patch_grass_jungle: -5306698541550932035
+      spring_water: -6309737302536864083
+      pile_hay: 9104249500900194287
+      single_piece_of_grass: -6676408438555908892
+      patch_sunflower: -1756809484812165628
+      void_start_platform: -3053588292126002379
+      fossil_coal: -699516100094149562
+      patch_brown_mushroom: -5214809606868200219
+      seagrass_short: 8292142193920143980
+      monster_room: 1584226194878024420
+      seagrass_simple: -4107601801992734401
+      ore_iron_small: -2558523235715974524
+      nether_sprouts: -6087262295340540104
+      basalt_pillar: 1463211687894196212
+      moss_patch_bonemeal: -6661452508318703721
+      patch_pumpkin: -4383449139852358797
+      huge_brown_mushroom: -8230842925460295652
+      trees_jungle: 8201858085090738725
+      fancy_oak_bees_005: -816203445480530772
+      bamboo_vegetation: -623513788963657802
+      amethyst_geode: -2620334684669229626
+      pine: -7637044010274152580
+      fancy_oak_bees_002: -8995532675181620274
+      jungle_tree_no_vine: -8573567032232009579
+      sea_pickle: -5539831319827324202
+      jungle_bush: -2272410038744699855
+      spore_blossom: 6583016941163235779
+      ore_diamond_buried: 2194801673607480014
+      super_birch_bees_0002: -1707298581021168590
+      ore_tuff: 2446231153438818181
+      clay_pool_with_dripleaves: -7964113275930110055
+      nether_sprouts_bonemeal: 9013547363486648540
     grass-spread-tick-rate: 3
     ender-dragons-death-always-places-dragon-egg: true
