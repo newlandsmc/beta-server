@@ -134,11 +134,11 @@ client-brand-alerts:
     - 'vanilla'
   # The message sent when a player joins the server. Valid placeholder are %player (player name), %prefix% (plugin prefix),
   # %client-brand% (the user's client brand), and %client-version% (the user's client version).
-  message: '%prefix% %player% joined using %client-brand%!'
+  message: '%prefix% %player% joined using %client-brand% (this can be spoofed)'
   # A list of client brands that will not be allowed and will be kicked automatically when they join. This uses
   # string comparison so it doesnt need to be exact, for example, 'forge' will block Forge, 'lunar' will block lunar, etc.
   blocked-client-brands: []
-  unallowed-client-brand-kick-message: '&cYou can''t join with %client-brand%!'
+  unallowed-client-brand-kick-message: '&cYou can''t join with %client-brand% (this can be spoofed)'
   # Whether or not client brand alerts should be sent to the console
   console: false
   # The message that should be printed to the console (if the above option is enabled)
@@ -699,7 +699,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Aim'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 3
           multiple: .75
@@ -723,7 +723,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Aim'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 6
           multiple: .5
@@ -747,7 +747,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Aim'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 5
           multiple: .5
@@ -771,7 +771,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Aim'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 8
           multiple: .5
@@ -795,7 +795,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Aim'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 4
           multiple: .75
@@ -819,7 +819,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Aim'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 12
           multiple: .5
@@ -843,7 +843,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Aim'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 4
           multiple: .5
@@ -867,7 +867,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Aim'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 7
           multiple: .5
@@ -891,7 +891,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Aim'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 7
           multiple: .5
@@ -915,7 +915,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Aim'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 6
           multiple: .5
@@ -939,7 +939,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Aim'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 10
           multiple: .45
@@ -962,7 +962,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Aim'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 2
           multiple: .4
@@ -986,7 +986,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Aim'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 5
           multiple: .5
@@ -1010,7 +1010,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Aim'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 5
           multiple: .5
@@ -1034,7 +1034,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Aim'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 2
           multiple: .4
@@ -1058,7 +1058,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Aim'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 6
           multiple: .5
@@ -1082,7 +1082,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Aim'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 20
           multiple: .3
@@ -1106,7 +1106,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Aim'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 20
           multiple: .25
@@ -1130,7 +1130,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Aim'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         hotbar-shuffle:
           enabled: false
           minimum-vl-to-shuffle: 2
@@ -1150,7 +1150,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Aim'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 20
           multiple: .25
@@ -1174,7 +1174,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Aim'
+          - 'warn -s %player% Hacked client detected - Combat (Aim)'
         buffer:
           max: 12
           multiple: .25
@@ -1199,7 +1199,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Autoblock'
+          - 'warn -s %player% Hacked client detected - Combat (Autoblock)'
         hotbar-shuffle:
           enabled: false
           minimum-vl-to-shuffle: 2
@@ -1219,7 +1219,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Autoblock'
+          - 'warn -s %player% Hacked client detected - Combat (Autoblock)'
         hotbar-shuffle:
           enabled: false
           minimum-vl-to-shuffle: 2
@@ -1239,7 +1239,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Autoblock'
+          - 'warn -s %player% Hacked client detected - Combat (Autoblock)'
         buffer:
           max: 2
           multiple: .5
@@ -1266,7 +1266,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Autoclicker'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         max-cps: 25
       b:
         enabled: false
@@ -1279,7 +1279,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Autoclicker'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 3
           multiple: .5
@@ -1295,7 +1295,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Autoclicker'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 3
           multiple: .5
@@ -1311,7 +1311,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Autoclicker'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 3
           multiple: .5
@@ -1327,7 +1327,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Autoclicker'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 3
           multiple: .5
@@ -1343,7 +1343,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Autoclicker'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 4
           multiple: .5
@@ -1359,7 +1359,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Autoclicker'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 5
           multiple: .25
@@ -1375,7 +1375,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Autoclicker'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 4
           multiple: .5
@@ -1391,7 +1391,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Autoclicker'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 5
           multiple: .5
@@ -1407,7 +1407,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Autoclicker'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 4
           multiple: .5
@@ -1423,7 +1423,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Autoclicker'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 4
           multiple: .5
@@ -1439,7 +1439,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Autoclicker'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 4
           multiple: .25
@@ -1455,7 +1455,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Autoclicker'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 4
           multiple: .25
@@ -1471,7 +1471,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Autoclicker'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 25
           multiple: .15
@@ -1487,7 +1487,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Autoclicker'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 5
           multiple: .25
@@ -1503,7 +1503,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Autoclicker'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 2
           multiple: .25
@@ -1518,7 +1518,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Autoclicker'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 35
           multiple: .3
@@ -1534,7 +1534,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Autoclicker'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 50
           multiple: .15
@@ -1550,7 +1550,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Autoclicker'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 30
           multiple: .15
@@ -1566,7 +1566,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Autoclicker'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         buffer:
           max: 25
           multiple: .15
@@ -1583,7 +1583,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Reach'
+          - 'warn -s %player% Hacked client detected - Combat (Reach)'
         buffer:
           max: 3
           multiple: .25
@@ -1600,7 +1600,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Reach'
+          - 'warn -s %player% Hacked client detected - Combat (Reach)'
         buffer:
           max: 6
           multiple: .25
@@ -1618,7 +1618,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Fastbow'
+          - 'warn -s %player% Hacked client detected - Combat (Fastbow)'
         buffer:
           max: 3
           multiple: .5
@@ -1643,7 +1643,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Criticals'
+          - 'warn -s %player% Hacked client detected - Combat (Criticals)'
         buffer:
           max: 1
           multiple: .5
@@ -1667,7 +1667,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-           - 'warn -s %player% Hacked client detected: Combat - Criticals'
+          - 'warn -s %player% Hacked client detected - Combat (Criticals)'
         buffer:
           max: 1
           multiple: .5
@@ -1692,7 +1692,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Killaura'
+          - 'warn -s %player% Hacked client detected - Combat (Killaura)'
         buffer:
           max: 3
           multiple: .5
@@ -1716,7 +1716,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Killaura'
+          - 'warn -s %player% Hacked client detected - Combat (Killaura)'
         buffer:
           max: 5
           multiple: .6
@@ -1740,7 +1740,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Killaura'
+          - 'warn -s %player% Hacked client detected - Combat (Killaura)'
         buffer:
           max: 2
           multiple: .5
@@ -1764,7 +1764,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Killaura'
+          - 'warn -s %player% Hacked client detected - Combat (Killaura)'
       f:
         enabled: true
         punishable: true
@@ -1776,7 +1776,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Killaura'
+          - 'warn -s %player% Hacked client detected - Combat (Killaura)'
         buffer:
           max: 10
           multiple: .25
@@ -1792,7 +1792,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Killaura'
+          - 'warn -s %player% Hacked client detected - Combat (Killaura)'
         buffer:
           max: 3
           multiple: .5
@@ -1808,7 +1808,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Killaura'
+          - 'warn -s %player% Hacked client detected - Combat (Killaura)'
       j:
         enabled: true
         punishable: true
@@ -1820,7 +1820,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Killaura'
+          - 'warn -s %player% Hacked client detected - Combat (Killaura)'
         buffer:
           max: 1
           multiple: .5
@@ -1836,7 +1836,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Killaura'
+          - 'warn -s %player% Hacked client detected - Combat (Killaura)'
         buffer:
           max: 3
           multiple: .5
@@ -1853,7 +1853,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Hitbox'
+          - 'warn -s %player% Hacked client detected - Combat (Hitbox)'
         buffer:
           max: 4
           multiple: .25
@@ -1870,7 +1870,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Hitbox'
+          - 'warn -s %player% Hacked client detected - Combat (Hitbox)'
         buffer:
           max: 6
           multiple: .25
@@ -1888,7 +1888,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Velocity'
+          - 'warn -s %player% Hacked client detected - Combat (Velocity)'
         buffer:
           max: 4
           multiple: .25
@@ -1904,7 +1904,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Velocity'
+          - 'warn -s %player% Hacked client detected - Combat (Velocity)'
         buffer:
           max: 4
           multiple: .35
@@ -1920,7 +1920,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Combat - Velocity'
+          - 'warn -s %player% Hacked client detected - Combat (Velocity)'
         buffer:
           max: 5
           multiple: .25
@@ -1938,7 +1938,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - No Slow'
+          - 'warn -s %player% Hacked client detected - Movement (No Slow)'
         buffer:
           max: 3
           multiple: .25
@@ -1954,7 +1954,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - No Slow'
+          - 'warn -s %player% Hacked client detected - Movement (No Slow)'
         buffer:
           max: 7
           multiple: .25
@@ -1970,7 +1970,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - No Slow'
+          - 'warn -s %player% Hacked client detected - Movement (No Slow)'
         buffer:
           max: 7
           multiple: .25
@@ -1986,7 +1986,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - No Slow'
+          - 'warn -s %player% Hacked client detected - Movement (No Slow)'
         buffer:
           max: 7
           multiple: .25
@@ -2002,7 +2002,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - No Slow'
+          - 'warn -s %player% Hacked client detected - Movement (No Slow)'
         buffer:
           max: 7
           multiple: .25
@@ -2021,7 +2021,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Motion'
+          - 'warn -s %player% Hacked client detected - Movement (Motion)'
         buffer:
           max: 3
           multiple: .25
@@ -2039,7 +2039,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Motion'
+          - 'warn -s %player% Hacked client detected - Movement (Motion)'
         buffer:
           max: 3
           multiple: .25
@@ -2057,7 +2057,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Motion'
+          - 'warn -s %player% Hacked client detected - Movement (Motion)'
         buffer:
           max: 1
           multiple: .5
@@ -2075,7 +2075,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Motion'
+          - 'warn -s %player% Hacked client detected - Movement (Motion)'
         buffer:
           max: 3
           multiple: .25
@@ -2093,7 +2093,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Motion'
+          - 'warn -s %player% Hacked client detected - Movement (Motion)'
         buffer:
           max: 1
           multiple: .5
@@ -2111,7 +2111,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Motion'
+          - 'warn -s %player% Hacked client detected - Movement (Motion)'
         buffer:
           max: 2
           multiple: .25
@@ -2129,7 +2129,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Motion'
+          - 'warn -s %player% Hacked client detected - Movement (Motion)'
         buffer:
           max: 4
           multiple: .25
@@ -2148,7 +2148,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Jump'
+          - 'warn -s %player% Hacked client detected - Movement (Jump)'
         buffer:
           max: 2
           multiple: .25
@@ -2166,7 +2166,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Jump'
+          - 'warn -s %player% Hacked client detected - Movement (Jump)'
         buffer:
           max: 2
           multiple: .25
@@ -2184,7 +2184,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Step'
+          - 'warn -s %player% Hacked client detected - Movement (Step)'
       b:
         enabled: true
         punishable: true
@@ -2197,7 +2197,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Step'
+          - 'warn -s %player% Hacked client detected - Movement (Step)'
         buffer:
           max: 6
           multiple: .25
@@ -2214,7 +2214,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Boat Fly'
+          - 'warn -s %player% Hacked client detected - Movement (Boat Fly)'
         buffer:
           max: 4
           multiple: .33
@@ -2231,7 +2231,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Boat Fly'
+          - 'warn -s %player% Hacked client detected - Movement (Boat Fly)'
         buffer:
           max: 5
           multiple: .25
@@ -2248,7 +2248,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Boat Fly'
+          - 'warn -s %player% Hacked client detected - Movement (Boat Fly)'
         buffer:
           max: 5
           multiple: .25
@@ -2266,7 +2266,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Entity Flight'
+          - 'warn -s %player% Hacked client detected - Movement (Entity Flight)'
         buffer:
           max: 5
           multiple: .5
@@ -2283,7 +2283,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Entity Flight'
+          - 'warn -s %player% Hacked client detected - Movement (Entity Flight)'
         buffer:
           max: 5
           multiple: .5
@@ -2300,7 +2300,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Anti Levitation'
+          - 'warn -s %player% Hacked client detected - Movement (Anti Levitation)'
         buffer:
           max: 8
           multiple: .25
@@ -2317,7 +2317,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - No Saddle'
+          - 'warn -s %player% Hacked client detected - Movement (No Saddle)'
         buffer:
           max: 6
           multiple: .5
@@ -2334,7 +2334,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Entity Speed'
+          - 'warn -s %player% Hacked client detected - Movement (Entity Speed)'
         buffer:
           max: 5
           multiple: .5
@@ -2352,7 +2352,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Elytra'
+          - 'warn -s %player% Hacked client detected - Movement (Elytra)'
         buffer:
           max: 1
           multiple: .5
@@ -2369,7 +2369,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Elytra'
+          - 'warn -s %player% Hacked client detected - Movement (Elytra)'
         buffer:
           max: 8
           multiple: .25
@@ -2385,7 +2385,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Elytra'
+          - 'warn -s %player% Hacked client detected - Movement (Elytra)'
         buffer:
           max: 6
           multiple: .5
@@ -2401,7 +2401,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Elytra'
+          - 'warn -s %player% Hacked client detected - Movement (Elytra)'
         buffer:
           max: 6
           multiple: .25
@@ -2417,7 +2417,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Elytra'
+          - 'warn -s %player% Hacked client detected - Movement (Elytra)'
         buffer:
           max: 3
           multiple: .25
@@ -2433,7 +2433,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Elytra'
+          - 'warn -s %player% Hacked client detected - Movement (Elytra)'
         buffer:
           max: 4
           multiple: .25
@@ -2449,7 +2449,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Elytra'
+          - 'warn -s %player% Hacked client detected - Movement (Elytra)'
         buffer:
           max: 4
           multiple: .25
@@ -2468,7 +2468,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Speed'
+          - 'warn -s %player% Hacked client detected - Movement (Speed)'
         buffer:
           max: 3
           multiple: .35
@@ -2486,7 +2486,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Speed'
+          - 'warn -s %player% Hacked client detected - Movement (Speed)'
         buffer:
           max: 3
           multiple: .25
@@ -2505,7 +2505,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Speed'
+          - 'warn -s %player% Hacked client detected - Movement (Speed)'
         buffer:
           max: 3
           multiple: .25
@@ -2524,7 +2524,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Speed'
+          - 'warn -s %player% Hacked client detected - Movement (Speed)'
         buffer:
           max: 3
           multiple: .25
@@ -2544,7 +2544,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Fast Climb'
+          - 'warn -s %player% Hacked client detected - Movement (Fast Climb)'
         buffer:
           max: 4
           multiple: .5
@@ -2563,7 +2563,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Wall Climb'
+          - 'warn -s %player% Hacked client detected - Movement (Wall Climb)'
         buffer:
           max: 4
           multiple: .35
@@ -2582,7 +2582,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Jesus'
+          - 'warn -s %player% Hacked client detected - Movement (Jesus)'
         buffer:
           max: 3
           multiple: .5
@@ -2600,7 +2600,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Jesus'
+          - 'warn -s %player% Hacked client detected - Movement (Jesus)'
         buffer:
           max: 4
           multiple: .5
@@ -2618,7 +2618,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Jesus'
+          - 'warn -s %player% Hacked client detected - Movement (Jesus)'
         buffer:
           max: 10
           multiple: .45
@@ -2636,7 +2636,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Jesus'
+          - 'warn -s %player% Hacked client detected - Movement (Jesus)'
         buffer:
           max: 4
           multiple: .45
@@ -2654,7 +2654,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Jesus'
+          - 'warn -s %player% Hacked client detected - Movement (Jesus)'
         buffer:
           max: 10
           multiple: .25
@@ -2673,7 +2673,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Flight'
+          - 'warn -s %player% Hacked client detected - Movement (Flight)'
         buffer:
           max: 3
           multiple: .65
@@ -2695,7 +2695,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Flight'
+          - 'warn -s %player% Hacked client detected - Movement (Flight)'
         buffer:
           max: 3
           multiple: .5
@@ -2713,7 +2713,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Flight'
+          - 'warn -s %player% Hacked client detected - Movement (Flight)'
         buffer:
           max: 4
           multiple: .75
@@ -2735,7 +2735,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Flight'
+          - 'warn -s %player% Hacked client detected - Movement (Flight)'
         buffer:
           max: 4
           multiple: .35
@@ -2757,7 +2757,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Flight'
+          - 'warn -s %player% Hacked client detected - Movement (Flight)'
         buffer:
           max: 3
           multiple: .4
@@ -2779,7 +2779,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Vclip'
+          - 'warn -s %player% Hacked client detected - Movement (Vclip)'
     sprint:
       a:
         enabled: true
@@ -2792,7 +2792,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Sprint'
+          - 'warn -s %player% Hacked client detected - Movement (Sprint)'
         buffer:
           max: 6
           multiple: .25
@@ -2811,7 +2811,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Strafe'
+          - 'warn -s %player% Hacked client detected - Movement (Strafe)'
         buffer:
           max: 2
           multiple: .5
@@ -2827,7 +2827,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Movement - Strafe'
+          - 'warn -s %player% Hacked client detected - Movement (Strafe)'
         buffer:
           max: 4
           multiple: .15
@@ -2845,7 +2845,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Fast Use'
+          - 'warn -s %player% Hacked client detected - Player (Fast Use)'
     fastplace:
       a:
         enabled: true
@@ -2858,7 +2858,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Fast Place'
+          - 'warn -s %player% Hacked client detected - Player (Fast Place)'
         max-blocks: 15
     fastbreak:
       a:
@@ -2872,7 +2872,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Fast Break'
+          - 'warn -s %player% Hacked client detected - Player (Fast Break)'
         buffer:
           max: 2
           multiple: .25
@@ -2890,7 +2890,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Tower'
+          - 'warn -s %player% Hacked client detected - Player (Tower)'
         buffer:
           max: 4
           multiple: .5
@@ -2907,7 +2907,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Scaffold'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
       b:
         enabled: true
         punishable: true
@@ -2919,7 +2919,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Scaffold'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
         buffer:
           max: 3
           multiple: .25
@@ -2935,7 +2935,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Scaffold'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
         buffer:
           max: 2
           multiple: .25
@@ -2951,7 +2951,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Scaffold'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
         buffer:
           max: 4
           multiple: .25
@@ -2967,7 +2967,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Scaffold'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
         buffer:
           max: 4
           multiple: .25
@@ -2983,7 +2983,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Scaffold'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
         buffer:
           max: 2
           multiple: .25
@@ -2999,7 +2999,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Scaffold'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
         buffer:
           max: 8
           multiple: .25
@@ -3015,7 +3015,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Scaffold'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
       j:
         enabled: true
         punishable: true
@@ -3027,7 +3027,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Scaffold'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
       k:
         enabled: true
         punishable: true
@@ -3039,7 +3039,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Scaffold'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
         buffer:
           max: 1
           multiple: .5
@@ -3056,7 +3056,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Scaffold'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
         buffer:
           max: 1
           multiple: .5
@@ -3098,7 +3098,7 @@ checks:
         max-balance: 75
     hackedclient:
       a:
-        enabled: true
+        enabled: false
         punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -3110,7 +3110,7 @@ checks:
         punishment-commands:
           - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
       b:
-        enabled: true
+        enabled: false
         punishable: false
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -3133,7 +3133,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Baritone'
+          - 'warn -s %player% Hacked client detected - Player (Baritone)'
         buffer:
           max: 20
           multiple: .5
@@ -3149,7 +3149,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Baritone'
+          - 'warn -s %player% Hacked client detected - Player (Baritone)'
         buffer:
           max: 2
           multiple: .5
@@ -3166,7 +3166,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Crash'
+          - 'warn -s %player% Hacked client detected - Player (Crash)'
       b:
         enabled: true
         punishable: true
@@ -3178,7 +3178,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Crash'
+          - 'warn -s %player% Hacked client detected - Player (Crash)'
         buffer:
           max: 3
           multiple: .5
@@ -3194,7 +3194,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Crash'
+          - 'warn -s %player% Hacked client detected - Player (Crash)'
       d:
         enabled: true
         punishable: true
@@ -3206,7 +3206,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Crash'
+          - 'warn -s %player% Hacked client detected - Player (Crash)'
     ghosthand:
       a:
         enabled: true
@@ -3219,7 +3219,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Ghost Hand'
+          - 'warn -s %player% Hacked client detected - Player (Ghost Hand)'
         cancel: true
     # This checks for when players do not reply to transaction packets. Recommended to just kick for this on 1 violation, since
     # anyone who flags this will be automatically kicked by the server for keepalive timeout anyway if they don't reply to any
@@ -3236,7 +3236,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Transaction'
+          - 'warn -s %player% Hacked client detected - Player (Transaction)'
         max-delay: 30000
     selfleash:
       a:
@@ -3250,7 +3250,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Self Leash'
+          - 'warn -s %player% Hacked client detected - Player (Self Leash)'
         buffer:
           max: 5
           multiple: .5
@@ -3267,7 +3267,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 2
           multiple: .5
@@ -3283,7 +3283,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       c:
         enabled: true
         punishable: true
@@ -3295,7 +3295,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       d:
         enabled: true
         punishable: true
@@ -3307,7 +3307,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 3
           multiple: .25
@@ -3323,7 +3323,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       f:
         enabled: true
         punishable: true
@@ -3335,7 +3335,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       g:
         enabled: true
         punishable: true
@@ -3347,7 +3347,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       h:
         enabled: true
         punishable: true
@@ -3359,7 +3359,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       i:
         enabled: true
         punishable: true
@@ -3371,7 +3371,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       j:
         enabled: true
         punishable: true
@@ -3383,7 +3383,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       k:
         enabled: true
         punishable: true
@@ -3395,7 +3395,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 3
           multiple: .5
@@ -3411,7 +3411,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 5
           multiple: .33
@@ -3427,7 +3427,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 20
           multiple: .25
@@ -3443,7 +3443,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 3
           multiple: .5
@@ -3459,7 +3459,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 3
           multiple: .5
@@ -3475,7 +3475,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 3
           multiple: .5
@@ -3491,7 +3491,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 6
           multiple: .5
@@ -3507,7 +3507,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       t:
         enabled: true
         punishable: true
@@ -3519,7 +3519,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       u:
         enabled: true
         punishable: true
@@ -3531,7 +3531,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       v:
         enabled: true
         punishable: true
@@ -3543,7 +3543,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 8
           multiple: .5
@@ -3560,7 +3560,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 8
           multiple: .5
@@ -3576,7 +3576,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 6
           multiple: .5
@@ -3592,7 +3592,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
       z:
         enabled: true
         punishable: true
@@ -3604,7 +3604,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Boat Glitch'
+          - 'warn -s %player% Hacked client detected - Player (Boat Glitch)'
       1:
         enabled: true
         punishable: true
@@ -3616,7 +3616,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 12
           multiple: .25
@@ -3632,7 +3632,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 12
           multiple: .25
@@ -3648,7 +3648,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Bad Packets'
+          - 'warn -s %player% Hacked client detected - Player (Bad Packets)'
         buffer:
           max: 4
           multiple: .25
@@ -3665,7 +3665,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Inventory'
+          - 'warn -s %player% Hacked client detected - Player (Inventory)'
         buffer:
           max: 2
           multiple: .25
@@ -3681,7 +3681,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Inventory'
+          - 'warn -s %player% Hacked client detected - Player (Inventory)'
         buffer:
           max: 2
           multiple: .25
@@ -3700,7 +3700,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Invalid Movement'
+          - 'warn -s %player% Hacked client detected - Player (Invalid Movement)'
         buffer:
           max: 1
           multiple: .5
@@ -3716,7 +3716,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Invalid Movement'
+          - 'warn -s %player% Hacked client detected - Player (Invalid Movement)'
         buffer:
           max: 8
           multiple: .25
@@ -3734,7 +3734,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Invalid Movement'
+          - 'warn -s %player% Hacked client detected - Player (Invalid Movement)'
         buffer:
           max: 1
           multiple: .5
@@ -3752,7 +3752,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Invalid Movement'
+          - 'warn -s %player% Hacked client detected - Player (Invalid Movement)'
         buffer:
           max: 1
           multiple: .5
@@ -3770,7 +3770,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-            - 'warn -s %player% Hacked client detected: Player - Invalid Movement'
+            - 'warn -s %player% Hacked client detected - Player (Invalid Movement)'
         buffer:
           max: 2
           multiple: .5
@@ -3788,7 +3788,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Invalid Movement'
+          - 'warn -s %player% Hacked client detected - Player (Invalid Movement)'
         buffer:
           max: 3
           multiple: .5
@@ -3806,7 +3806,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Invalid Movement'
+          - 'warn -s %player% Hacked client detected - Player (Invalid Movement)'
         buffer:
           max: 3
           multiple: .5
@@ -3824,7 +3824,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Invalid Movement'
+          - 'warn -s %player% Hacked client detected - Player (Invalid Movement)'
         buffer:
           max: 1
           multiple: .5
@@ -3841,7 +3841,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Groundspoof'
+          - 'warn -s %player% Hacked client detected - Player (Groundspoof)'
         buffer:
           max: 4
           multiple: .5
@@ -3857,7 +3857,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Groundspoof'
+          - 'warn -s %player% Hacked client detected - Player (Groundspoof)'
         buffer:
           max: 4
           multiple: .5
@@ -3873,7 +3873,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'warn -s %player% Hacked client detected: Player - Groundspoof'
+          - 'warn -s %player% Hacked client detected - Player (Groundspoof)'
         buffer:
           max: 4
           multiple: .5
@@ -3890,7 +3890,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+          - 'warn -s %player% Hacked client detected - Combat (General)'
         max-combat-violations: 25
       b:
         enabled: true
@@ -3903,7 +3903,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+          - 'warn -s %player% Hacked client detected - Movement (General)'
         max-movement-violations: 30
       c:
         enabled: true
@@ -3916,7 +3916,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+          - 'warn -s %player% Hacked client detected - Player (General)'
         max-player-violations: 30
       d:
         enabled: true
@@ -3929,7 +3929,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+          - 'warn -s %player% Hacked client detected - Combat (Autoclicker)'
         max-autoclicker-violations: 30
       e:
         enabled: true
@@ -3942,7 +3942,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+          - 'warn -s %player% Hacked client detected - Multiple Violations'
         max-total-violations: 50
       f:
         enabled: true
@@ -3955,5 +3955,5 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-          - 'minecraft:kick %player% Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+          - 'warn -s %player% Hacked client detected - Player (Scaffold)'
         max-scaffold-violations: 25
