@@ -21,6 +21,7 @@
 /plugins/squaremap/web/map/tiles/
 /plugins/squaremap/data/
 /plugins/AFKPlus/statistics.yml/
+/plugins/Bounties/data-storage/
 
 # Ignore bloat in plugins
 /plugins/ChatCore/Chat Logs/
