@@ -1,7 +1,7 @@
 distance: 5
 
-delayMessage: "<gray>Teleporting in 5 seconds, don't move..."
-teleportMessage: "<gray>Teleporting..."
+delayMessage: "<yellow>Teleporting in 5 seconds, don't move..."
+teleportMessage: "<yellow>Teleporting..."
 waypointCreateMessage: "<green>New waypoint created. Open config modify."
 waypointRemoveMessage: "<red>Waypoint deleted."
 deniedMessage: "<red>You do not have permission to do that."
