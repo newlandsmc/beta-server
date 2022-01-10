@@ -1,0 +1,17 @@
+waypoints:
+  awd:
+    location:
+      worldName: world
+      x: -2934.475465606115
+      y: 120.0
+      z: 8108.545240022495
+    material: AIR
+    description: ''
+  '2':
+    location:
+      worldName: world
+      x: -2902.928918920924
+      y: 120.0
+      z: 8108.198111299754
+    material: AIR
+    description: ''
