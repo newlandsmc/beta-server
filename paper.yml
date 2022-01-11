@@ -293,6 +293,12 @@ world-settings:
       azalea_tree: 5266815600360753220
       ore_dirt: -6854832091321851877
   default:
+    slime-spawn-height:
+      swamp-biome:
+        maximum: 70.0
+        minimum: 50.0
+      slime-chunk:
+        maximum: 40.0
     wateranimal-spawn-height:
       maximum: default
       minimum: default
@@ -340,7 +346,7 @@ world-settings:
     anti-xray:
       enabled: true
       engine-mode: 1
-      max-block-height: 128
+      max-block-height: 64
       update-radius: 2
       lava-obscures: false
       use-permission: false
