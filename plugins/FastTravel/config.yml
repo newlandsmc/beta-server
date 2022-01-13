@@ -7,8 +7,8 @@ waypointRemoveMessage: "<red>Waypoint deleted."
 deniedMessage: "<red>You do not have permission to do this"
 requestCancelledMessage: "<red>Your request got cancelled"
 playerAddedWaypoint: "<green>You discovered <waypoint>! Now you can teleport to this waypoint!"
-commandHelp: "Invalid usage please do /custommotd help for more info"
-commandHelpList: "<command>: <usage> - <description>"
+commandHelp: "Invalid usage please do /fasttravel help for more info"
+commandHelpList: "<gold><usage><white>: <description>"
 waypointAlreadyExists: "<red>A waypoint with that name already exists."
 
 markerColor: "cyan"
@@ -17,7 +17,7 @@ markerOpacity: 1.0D
 markerFillColor: "cyan"
 markerFillOpacity: 0.2D
 
-layerLabel: ""
+layerLabel: "Waypoint"
 showControls: true
 layerControlsHidden: true
 
