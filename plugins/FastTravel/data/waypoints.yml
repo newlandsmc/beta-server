@@ -1,0 +1,17 @@
+waypoints:
+  Tree:
+    location:
+      worldName: world
+      x: 480.24483539951115
+      y: 107.0
+      z: -1486.8693755177592
+    material: IRON_INGOT
+    description: 'is a tree '
+  test:
+    location:
+      worldName: world
+      x: 498.67830480839115
+      y: 115.0
+      z: -1480.5282195078858
+    material: AIR
+    description: ''
