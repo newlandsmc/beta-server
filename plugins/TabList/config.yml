@@ -92,7 +92,7 @@ placeholder-format:
 
   # Ping color format for %ping% placeholder.
   ping:
-    enable: false
+    enable: true
 
     # https://github.com/montlikadani/TabList/wiki/Ping-or-tps-formatting
     formats:
@@ -102,7 +102,7 @@ placeholder-format:
 
   # TPS color format for %tps% placeholder.
   tps:
-    enable: false
+    enable: true
 
     # https://github.com/montlikadani/TabList/wiki/Ping-or-tps-formatting
     formats:
@@ -131,7 +131,7 @@ placeholder-format:
 
 # Enable changing of prefix & suffix in player list?
 change-prefix-suffix-in-tablist:
-  enable: true
+  enable: false
 
   # Disable groups in these worlds.
   disabled-worlds:
@@ -166,7 +166,7 @@ change-prefix-suffix-in-tablist:
   # Refresh interval in server ticks.
   # Set to 0 if you don't want to refresh the groups.
   # If 0, then you will need to execute the /tl reload command to refresh the groups.
-  refresh-interval: 10
+  refresh-interval: 30
 
 # Tablist objective types
 # Shows your current health (with life indicator), your current ping or any NUMBER placeholder
@@ -193,7 +193,7 @@ tablist-object-type:
   # ping - player's ping
   # health - player's health
   # custom - custom placeholder
-  type: none
+  type: ping
 
   # In these worlds the objects will not be displayed
   disabled-worlds:
@@ -203,7 +203,7 @@ tablist-object-type:
   refresh-interval: 3
 
 # Check for updates?
-check-update: false
+check-update: true
 
 # Download new releases to "releases" folder?
 # This only works if the "check-update" is true.
