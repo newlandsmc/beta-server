@@ -12,17 +12,31 @@
 
     <meta name="theme-color" content="#222222">
 	<link rel="manifest" href="./live-atlas/favicons/site.webmanifest">
-	<link rel="icon" href="./live-atlas/favicons/favicon.svg">
     <link rel=”mask-icon” href="./live-atlas/favicons/mask.svg" color="#cccccc">
     <link rel="apple-touch-icon" sizes="180x180" href="./live-atlas/favicons/apple-touch-icon.png">
 
-    <meta name="keywords" content="minecraft, mc, survival, server, semi, vanilla, semivanilla, rpg, multiplayer, map, dynmap, squaremap, pl3xmap" />
-	<meta name="description" content="SemiVanilla Minecraft Server - Map" />
+    <meta name="keywords" content="semi, vanilla, java, minecraft, mc, survival, rpg, multiplayer, map, dynmap, squaremap, pl3xmap" />
+    <meta name="description" content="Welcome to SemiVanilla MC! We are a semi-vanilla survival 1.18.1 Java Minecraft server hosting hard difficulty survival with RPG elements and competitive multiplayer. Dynamic map provided by squaremap." />
 
     <title>SemiVanilla Minecraft Server - Map</title>
 
     <!-- Remove this if you are using the servers config below -->
     <!-- <script src="./standalone/config.js"></script> -->
+
+    <link rel="icon" href="https://semivanilla.com/assets/images/favicon.ico" />
+    <link rel="stylesheet" href="https://semivanilla.com/assets/css/cookienotice.css" />
+    <script type="text/javascript">
+      function downloadJSAtOnload() {
+        var cookie_notice = document.createElement("script");
+        cookie_notice.src = "https://semivanilla.com/assets/javascript/cookie_notice.js";
+        document.body.appendChild(cookie_notice);
+      }
+      if (window.addEventListener)
+      window.addEventListener("load", downloadJSAtOnload, false);
+      else if (window.attachEvent)
+      window.attachEvent("onload", downloadJSAtOnload);
+      else window.onload = downloadJSAtOnload;
+    </script>
 
     <script>
         window.liveAtlasConfig = {
@@ -159,6 +173,7 @@
             version: 1
         };
     </script>
+
     <style>
         /* Theme colours */
         :root {
@@ -334,6 +349,7 @@
     <link rel="stylesheet" href="./live-atlas/assets/index.dccfb935.css">
   </head>
   <body>
+    <?php echo file_get_contents('https://semivanilla.com/assets/templates/cookies-notice.html'); ?>
     <div id="splash">
         <svg id="splash__logo" width="200" height="200" viewBox="0 0 268.83 266.53" aria-hidden="true" fill="rgba(255, 255, 255, 0.7)">
             <path d="M5.235.662C2.153.606 0 2.945 0 6.912v216.577c0 5.288 3.828 11.41 8.582 13.725l57.835 28.165c4.755 2.316 8.582-.078 8.582-5.367V43.434c0-5.288-3.827-11.41-8.582-13.727L8.582 1.544C7.394.965 6.262.681 5.235.662zm32.283 135.96c14.394 0 26.062 11.669 26.062 26.063 0 14.394-24.167 59.55-26.062 57.654-1.854 1.854-26.063-43.26-26.063-57.654 0-14.394 11.669-26.063 26.063-26.063zM202.388 1.013l57.833 28.165c4.755 2.315 8.583 8.437 8.583 13.726v216.58c0 5.29-3.828 7.683-8.583 5.367l-57.833-28.164c-4.755-2.316-8.583-8.438-8.583-13.727V6.38c0-5.289 3.828-7.682 8.583-5.367zM172.012.39c-1.051-.035-2.209.191-3.426.709l-68.342 29.053c-4.867 2.07-8.786 7.993-8.786 13.282V260.01c0 5.29 3.919 7.88 8.786 5.811l68.342-29.053c4.867-2.07 8.786-7.991 8.786-13.28V6.91c0-3.967-2.204-6.417-5.36-6.521zm-36.949 41.216c14.394 0 26.063 11.668 26.063 26.062 0 14.394-24.168 59.55-26.063 57.655C133.209 127.177 109 82.063 109 67.668c0-14.394 11.669-26.062 26.063-26.062z"/>
@@ -360,6 +376,6 @@
     </noscript>
 
     <main id="app" aria-hidden="true"></main>
-    
+    <?php echo file_get_contents('https://semivanilla.com/assets/templates/cookies-notice.html'); ?>
   </body>
 </html>

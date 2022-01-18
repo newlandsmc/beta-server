@@ -36,3 +36,7 @@ groups:
     prefix: ''
     tabname: '%bs_tag%%player%'
     suffix: ''
+  tester:
+    prefix: ''
+    tabname: '%bs_tag%%player%'
+    suffix: ''
