@@ -40,3 +40,11 @@ groups:
     prefix: ''
     tabname: '%bs_tag%%player%'
     suffix: ''
+  adept:
+    prefix: '&9adept&r - '
+  legend:
+    prefix: '&flegend&r - '
+  savant:
+    prefix: '&asavant&r - '
+  awoken:
+    prefix: '&9awoken&r - '
