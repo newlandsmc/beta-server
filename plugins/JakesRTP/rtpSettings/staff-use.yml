@@ -12,7 +12,7 @@ enabled: true
 # Can a player use this config with `/rtp`?
 # Set to false if you plan on having this config exclusively for rtp-on-first-join, rtp-on-death, or through the
 #   `forcertp` command (the `forcertp` command is what you would use for portals).
-command-enabled: true
+command-enabled: false
 
 # The player will only be able to use this config if they have the permission:
 #   'jakesrtp.use.[name]' where the default config would be 'jakesrtp.use.default-settings'.

@@ -9,14 +9,14 @@ error:
 
 command:
   global-gamerule:
-    unknown-gamerule: "&cUnknown gamerule type &7{value}&c."
-    list-title: "&f&lGame Rule Values for &7{rule}&f&l:"
+    unknown-gamerule: "&cUnknown gamerule type {value}&c."
+    list-title: "&fGamerule Values for {rule}:"
     list-line-format: "&7&l{world}: &f{value}"
-    success-count: "&aSuccessfully changed game rule &7{rule}&a to value &7{value}&a in &7{count}&a worlds."
-    failure-count: "&cFailed to change game rule &7{rule}&c in &7{count}&c worlds."
+    success-count: "&aSuccessfully changed game rule {rule} to {value} in {count} worlds."
+    failure-count: "&cFailed to change game rule {rule} in {count} worlds."
 
   debug-event:
-    invalid-priority: "&cUnknown EventPriority type &7{value}&c."
-    invalid-event-class: "&cUnknown or invalid event class &7{value}&c."
+    invalid-priority: "&cUnknown EventPriority type {value}."
+    invalid-event-class: "&cUnknown or invalid event class {value}."
     reflection-error: "&cFailed to debug that event. Check the server console for errors."
     results-title: "Debug Results for event '{event}' and priority '{priority}':"
