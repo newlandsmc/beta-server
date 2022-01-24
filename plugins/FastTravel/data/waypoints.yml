@@ -1,17 +1,76 @@
-waypoints:
-  Tree:
-    location:
-      worldName: world
-      x: 480.24483539951115
-      y: 107.0
-      z: -1486.8693755177592
-    material: IRON_INGOT
-    description: 'is a tree '
-  test:
-    location:
-      worldName: world
-      x: 498.67830480839115
-      y: 115.0
-      z: -1480.5282195078858
-    material: AIR
-    description: ''
+Southeast:
+   icon-name: quadrantmarker.png
+   lore: 
+   - <white>Southeast Quadrant
+   icon: SAND
+   location:
+      x: 5000
+      y: 70
+      z: 5000
+      pitch: 0.29972762
+      world-name: world
+      yaw: 88.43982
+   gui: 
+      col: 2
+      row: 2
+   offset-radius:
+      x: 4
+      y: 4
+      z: 5
+Southwest:
+   icon-name: quadrantmarker.png
+   lore: 
+   - <white>Southwest Quadrant
+   icon: PACKED_ICE
+   location: 
+      x: -5000
+      y: 64
+      z: 5000
+      pitch: 0.29972762
+      world-name: world
+      yaw: 88.43982
+   gui: 
+      col: 4
+      row: 2
+   offset-radius: 
+      x: 4
+      y: 4
+      z: 5
+Northwest:
+   icon-name: quadrantmarker.png
+   lore:
+   - <white>Northwest Quadrant
+   icon: SNOW_BLOCK
+   location:
+      x: -5000
+      y: 71
+      z: -5000
+      pitch: 0.29972762
+      world-name: world
+      yaw: 88.43982
+   gui:
+      col: 6
+      row: 2
+   offset-radius:
+      x: 4
+      y: 4
+      z: 5
+Northeast:
+   icon-name: quadrantmarker.png
+   lore:
+   - <white>Northeast Quadrant
+   icon: SNOW_BLOCK
+   location:
+      x: 5000
+      y: 71
+      z: -5000
+      pitch: 0.29972762
+      world-name: world
+      yaw: 88.43982
+   gui:
+      col: 8
+      row: 2
+   offset-radius:
+      x: 4
+      y: 4
+      z: 5

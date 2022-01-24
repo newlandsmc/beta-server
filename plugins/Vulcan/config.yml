@@ -3051,7 +3051,7 @@ checks:
           multiple: 0.5
           decay: 0.25
       n:
-        enabled: true
+        enabled: false
         punishable: true
         discord-alert-interval: 1
         broadcast-punishment: false
@@ -3061,7 +3061,7 @@ checks:
         maximum-ping: 100000
         minimum-tps: 19.0
         punishment-commands:
-        - kick %player% &c[Vulcan] Unfair Advantage
+        - warn -s %player% Hacked client detected - Player (Scaffold)
         buffer:
           max: 2
           multiple: 0.5
