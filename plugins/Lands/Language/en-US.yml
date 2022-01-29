@@ -221,27 +221,26 @@ help:
     help: '[T]&e/lands help [page] &7- Get help[H]&7Click to copy.[/H][SC]lands help[/SC][/T]'
     edit: '[T]&e/lands edit <land> &7- Enter edit mode for land[H]&7The edit land
       is used for commands like /lands claim. &7Click to copy.[/H][SC]lands edit[/SC][/T]'
-    claim: '[T]&e/lands claim [land|radius|auto] &7- Claim chunk[H]&7Claim the
-      chunk at your current position. You can also specify a land to which this claim
-      should go to. &7Click to copy.[/H][SC]lands claim[/SC][/T]'
+    claim: '[T]&e/lands claim [land|radius|auto] &7- Claim chunk[H]&7Claim the chunk
+      at your current position. You can also specify a land to which this claim should
+      go to. &7Click to copy.[/H][SC]lands claim[/SC][/T]'
     create: '[T]&e/lands create <name> &7- Create land[H]&7Click to copy.[/H][SC]lands
       create[/SC][/T]'
     createcamp: '[T]&e/lands createcamp [name] &7- Create camp[H]&7Click to copy.[/H][SC]lands
       createcamp[/SC][/T]'
     merge: '[T]&e/lands merge <land> &7- Merge land into your current[H]&7Click to
       copy.[/H][SC]lands merge[/SC][/T]'
-    leave: '[T]&e/lands leave [land] &7- Leave a land or area.[H]&7If you don''t
-      specify a land, you''ll leave the area at your current position. &7Click to
-      copy.[/H][SC]lands leave[/SC][/T]'
+    leave: '[T]&e/lands leave [land] &7- Leave a land or area.[H]&7If you don''t specify
+      a land, you''ll leave the area at your current position. &7Click to copy.[/H][SC]lands
+      leave[/SC][/T]'
     unclaim: '[T]&e/lands unclaim &7- Unclaim chunk[H]&7This also supports /Lands
       selection. &7Click to copy.[/H][SC]lands unclaim[/SC][/T]'
     unclaimall: '[T]&e/lands unclaimall &7- Unclaim all chunks[H]&7Click to copy.[/H][SC]lands
       unclaimall[/SC][/T]'
     delete: '[T]&e/lands delete <land> &7- Delete land[H]&7Click to copy.[/H][SC]lands
       delete[/SC][/T]'
-    trust: '[T]&e/lands trust <player> [area] &7- Trust player[H]&7Use * as the
-      area name to trust the player to the whole land. &7Click to copy.[/H][SC]lands
-      trust[/SC][/T]'
+    trust: '[T]&e/lands trust <player> [area] &7- Trust player[H]&7Use * as the area
+      name to trust the player to the whole land. &7Click to copy.[/H][SC]lands trust[/SC][/T]'
     untrust: '[T]&e/lands untrust [area] &7- Untrust player[H]&7Use * as the area
       name to untrust the player from the whole land. &7Click to copy.[/H][SC]lands
       untrust[/SC][/T]'
@@ -260,9 +259,11 @@ help:
     spawn: '[T]&e/lands spawn [land] &7- Teleport to land[H]&7Click to copy.[/H][SC]lands
       spawn[/SC][/T]'
     wild: ''
-    top: '[T]&e/lands top [mode] [&epage&8] &7- Shows top 10 lands[H]&7Click to
-      copy.[/H][SC]lands top[/SC][/T]'
-    selection: '[T]&e/lands selection [assign|expand|pos1|pos2] &7- Selection mode[H]&7With this command you can resize a subarea or expand your selection to infinite y levels. &7Click to copy.[/H][SC]lands selection[/SC][/T]'
+    top: '[T]&e/lands top [mode] [&epage&8] &7- Shows top 10 lands[H]&7Click to copy.[/H][SC]lands
+      top[/SC][/T]'
+    selection: '[T]&e/lands selection [assign|expand|pos1|pos2] &7- Selection mode[H]&7With
+      this command you can resize a subarea or expand your selection to infinite y
+      levels. &7Click to copy.[/H][SC]lands selection[/SC][/T]'
     chat: '[T]&e/lands chat [land] <message> &7- Land chat[H]&7Click to copy.[/H][SC]lands
       chat[/SC][/T]'
     rename: '[T]&e/lands rename <name> &7- Rename land[H]&7Click to copy.[/H][SC]lands
@@ -288,8 +289,8 @@ help:
     unban: ''
     taxes: ''
     upkeep: ''
-    unstuck: '[T]&e/lands unstuck &7- Teleport out of traps[H]&7In case you got
-      stuck in a land. &7Click to copy.[/H][SC]lands unstuck[/SC][/T]'
+    unstuck: '[T]&e/lands unstuck &7- Teleport out of traps[H]&7In case you got stuck
+      in a land. &7Click to copy.[/H][SC]lands unstuck[/SC][/T]'
     claimlist: '[T]&e/lands claimlist [land] &7- List claims oFf your land[H]&7This
       command will show you all /lands claim''s of your land. &7Click to execute.[/H][C]lands
       claimlist[/C][/T]'
@@ -362,7 +363,7 @@ message:
     spawn_teleport: '&cYou cannot teleport to {land}.'
     land_enter: '#a#&cYou cannot enter {area} of {land}.'
     vehicle_use: '#a#&cYou cannot use vehicles in {land}.'
-    item_pickup: '#a#&cYou cannot drop and pickup items in {land}.'
+    item_pickup: '#a#&cYou cannot drop or pickup items in {land}.'
     ender_pearl: '#a#&cYou cannot teleport into {land}.'
     attack_animal: '#a#&cYou cannot attack animals in {land}.'
     attack_monster: '#a#&cYou cannot attack monsters in {land}.'
@@ -593,7 +594,7 @@ command:
         untrusted: '&cYou''re not allowed to do that for {land}.'
     no-edit-land: '&cYou haven''t selected your edit land yet. Use /lands edit <land>
       to select it.'
-    name-exists: '&cThe name "{name}" is already taken by another land or nation.'
+    name-exists: '&cThe name "{name}" is already taken by another land.'
     swear-word: ''
     action-cooldown: '&cYou can''t use that command for {time}.'
     world-invalid: '&cLands is disabled in this world.'
@@ -648,10 +649,9 @@ command:
     success:
       land: |
         &aSuccessfully created {land}!
-          [T]&7- Change edit land: [SC]/lands edit[/SC][H]{land} has been set as your edit land for actions like trusting players etc. To change that execute this command. Click to copy.[/H][/T]
-          [T]&7- Claim chunk: [C]/lands claim[/C][H]Click here to claim the chunk you're standing in.[/H][/T]
-          [T]&7- Claim selection: [C]/lands selection[/C][H]Click here to claim a selection of chunks.[/H][/T]
-          [T]&7- Trust players: [SC]/lands trust[/SC][H]Click to copy.[/H][/T]
+          &7- Claim chunk: [T]&7/lands claim[C]lands claim[/C][H]Click to claim the chunk you're standing in.[/H][/T]
+          &7- Claim selection: [T]&7/lands selection[C]lands selection[/C][H]&7Click to claim a selection of chunks.[/H][/T]
+          &7- Trust players: [T]&7/lands trust[SC]lands trust[/SC][H]&7Click to trust others..[/H][/T]
       camp: '&aYou created the camp {land}. The camp can''t be expanded and will expire
         in {time}.'
     broadcast: ''
@@ -703,17 +703,19 @@ command:
         and max claim height).'
       disabled: '&aYour current selection is no longer expanded to all y levels.'
     status:
-      complete: '&dSelection: First: {first} &dSecond: {second}'
+      complete: '&dSelection: Complete! Use: [T]&d/claim[H]&7Claim this selection[/H][C]lands
+        claim[/C][/T]&d, [T]&d/unclaim[H]&7Unclaim this selection[/H][C]lands unclaim[/C][/T]&d,
+        or [T]&d/assign[H]&7Assign selection to subarea[/H][SC]lands assign <area>[/SC][/T]'
       progress: '&dSelection: First: {first} &dSecond: {second}'
       reminder: |
         &7Your selection is complete. Following actions can be executed:
-          [T]&7 - Claim: /lands claim [H]Click here to claim this selection.[/H][C]lands claim[/C][/T]
-          [T]&7 - Unclaim: /lands unclaim [H]Click here to unclaim this selection.[/H][C]lands unclaim[/C][/T]
-          [T]&7 - Subarea: /lands assign [H]Assign this selection to a subarea.[/H][SC]lands assign <area>[/SC][/T]
+          &7 - Claim: [T]&7/lands claim [H]Click here to claim this selection.[/H][C]lands claim[/C][/T]
+          &7 - Unclaim: [T]&7/lands unclaim [H]Click here to unclaim this selection.[/H][C]lands unclaim[/C][/T]
+          &7 - Subarea: [T]&7/lands assign [H]Assign this selection to a subarea.[/H][SC]lands assign <area>[/SC][/T]
       not-complete: '&cYour selection is not complete. Please make sure that both
         positions are set. Cancel with [T]&c/lands selection [H]&7Click here to toggle
         the selection mode.[/H][C]lands selection[/C][/T]'
-      disabled: '&dSelection Mode disabled.'
+      disabled: '&dSelection mode cancelled.'
   claim:
     camp: '&cYour camp can''t be expanded.'
     create:
@@ -749,8 +751,12 @@ command:
       chunks: '&cYou can''t merge {merge} into {land}. The total chunks, {amount},
         exceeds the limit of {max} chunks.'
     connection: '&cYou can''t merge {merge} into {land}.'
-    confirm: '&cConfirm that you want to merge {merge} into {land} with [T]&c/lands merge {merge} confirm.[H]&7Click to confirm.[/H][C]lands merge {merge} confirm[/C][/T]'
+    confirm: '&cConfirm that you want to merge {merge} into {land} with [T]&c/lands
+      merge {merge} confirm.[H]&7Click to confirm.[/H][C]lands merge {merge} confirm[/C][/T]'
     success: '&aSuccessfully merged {merge} into {land}.'
+    nation: |
+      &cYou can't merge land&4 {merge} &cinto&4 {land}&c. &7Land&2 {merge} &7is the capital of nation&9 {nation}&7.
+        [T]&7✖ Change capital: &e/nations setcapital &8<&eland&8>[H]&7Click here to change the nations capital. This will allow you to merge land {merge}. Click to copy.[/H][SC]nations setcapital[/SC][/T]
   assign:
     selection: '&cYou need to create a selection first. Use /lands selection to create
       one.'
@@ -811,12 +817,14 @@ command:
       invited: '&c{player} is already invited to {area} of {land}.'
       trusted: '&c{player} is already trusted in {area} of {land}.'
       success: '&aSuccessfully invited {player} to {area} of {land}!'
-      target: '&a{player} invited you to join {area} of {land}. [T]&aUse /lands invites to view your invites.[H]&7Click to open your invites menu.[/H][C]lands invites[/C][/T].'
+      target: '&a{player} invited you to join {area} of {land}. [T]&aUse /lands invites
+        to view your invites.[H]&7Click to open your invites menu.[/H][C]lands invites[/C][/T].'
     land:
       invited: '&c{player} is already invited to {land}.'
       trusted: '&c{player} is already trusted in {land}.'
       success: '&aSuccessfully invited {player} to {land}!'
-      target: '&a{player} invited you to join {land}. [T]&aUse /lands invites to view your invites.[H]&7Click to open your invites menu.[/H][C]lands invites[/C][/T].'
+      target: '&a{player} invited you to join {land}. [T]&aUse /lands invites to view
+        your invites.[H]&7Click to open your invites menu.[/H][C]lands invites[/C][/T].'
   untrust:
     area:
       already: '&c{player} isn''t trusted in {area} of {land}.'
@@ -848,9 +856,9 @@ command:
       of {members} members in their land.'
     war: '&cYou currently can''t join {land}, because it is engaged in a war against
       {object}.'
-    notification: '&7You have {invites} invites from other lands. [T]&7Use /lands invites
-      to get a list of them.[C]lands invites[/C][H]&7View received invites from other
-      lands.[/H][/T]'
+    notification: '&7You have {invites} invites from other lands. [T]&7Use /lands
+      invites to get a list of them.[C]lands invites[/C][H]&7View received invites
+      from other lands.[/H][/T]'
     area:
       success: '&aSuccessfully accepted invite from {land} for area {area}.'
       broadcast: ''
@@ -1272,6 +1280,9 @@ nations:
       success: '&7You successfully created the nation&9 {nation} &7with the land&2
         {land} &7as the capital. [T]&7Click here to open the menu.[H]&7Open the menu.[/H][C]nations
         menu[/C][/T]'
+      camp: |
+        &cYou can't create a nation with a camp &8(&4{land}&8) &cas the capital.
+          [T]&7✖ Change edit land: &3/edit &8<&3land&8> &8[CLICK][SC]lands edit[/SC][H]&7Use this command to change the edit land, which you want to be the capital of your nation. Click to copy.[/H][/T]
     trust:
       already: '&cThe land&4 {land} &cis already part of the nation&4 {nation}&c.
         &7They need to leave it first by using &e/nations leave&7.'

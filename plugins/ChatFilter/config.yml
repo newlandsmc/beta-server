@@ -62,7 +62,7 @@ settings:
   # #Remove excessive caps? Names are exempt
   deCap: true
   # #How many UPPERCASE letters before we lower the text string?
-  capsAmount: 6
+  capsAmount: 7
   
   # #Allow URLs? If set to false all URLs will be filtered as advertising
   allowURL: false
@@ -159,4 +159,4 @@ filteredIPandDNS:
 filteredWords: # Note: Custom regex filteres can not be removed ingame.
   - \b(nigger|nigga|n1gg3r|nagger|ni@@er|rape|rapist|faggot|fag\b|faggit|fa@@ot)
   - \b(a|4)b(o|0)rt(i|1)(o|0)n
-  - (\w)\1{4,}
+  - (\w)\1{6,}
