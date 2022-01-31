@@ -218,29 +218,6 @@ jellylegs:
     3:
       effects:
         - "STOP_ATTACK"
-smelting:
-  display: "%group-color%Smelting"
-  description: "Chance to smelt mined blocks."
-  applies-to: "Pickaxes"
-  type: "MINING"
-  group: "SIMPLE"
-  applies:
-    - BOOK
-    - ALL_PICKAXE
-    - ALL_SHOVEL
-  levels:
-    1:
-      chance: 33
-      effects:
-        - "SMELT"
-    2:
-      chance: 66
-      effects:
-        - "SMELT"
-    3:
-      chance: 100
-      effects:
-        - "SMELT"
 experience:
   display: "%group-color%Experience"
   description: "Chance to get more experience from ores."
@@ -4052,64 +4029,6 @@ blacksmith:
         - "ADD_DURABILITY:-2"
         - "HALF_DAMAGE"
         - "PARTICLE:BLOCK_DUST:20:1"
-disarmor:
-  display: "%group-color%Disarmor"
-  description: "Chance of unequipping random\narmor piece from your opponent."
-  applies-to: "Sword"
-  type: "ATTACK"
-  group: "LEGENDARY"
-  applies:
-    - BOOK
-    - ALL_SWORD
-  levels:
-    1:
-      chance: 0.4
-      cooldown: 6
-      effects:
-        - "REMOVE_RANDOM_ARMOR %victim%"
-        - "MESSAGE:&6&l** YOU HAVE BEEN DISARMORED ** %victim%"
-    2:
-      chance: 0.8
-      cooldown: 6
-      effects:
-        - "REMOVE_RANDOM_ARMOR %victim%"
-        - "MESSAGE:&6&l** YOU HAVE BEEN DISARMORED ** %victim%"
-    3:
-      chance: 1.0
-      cooldown: 6
-      effects:
-        - "REMOVE_RANDOM_ARMOR %victim%"
-        - "MESSAGE:&6&l** YOU HAVE BEEN DISARMORED ** %victim%"
-    4:
-      chance: 1.2
-      cooldown: 6
-      effects:
-        - "REMOVE_RANDOM_ARMOR %victim%"
-        - "MESSAGE:&6&l** YOU HAVE BEEN DISARMORED ** %victim%"
-    5:
-      chance: 1.4
-      cooldown: 6
-      effects:
-        - "REMOVE_RANDOM_ARMOR %victim%"
-        - "MESSAGE:&6&l** YOU HAVE BEEN DISARMORED ** %victim%"
-    6:
-      chance: 1.6
-      cooldown: 6
-      effects:
-        - "REMOVE_RANDOM_ARMOR %victim%"
-        - "MESSAGE:&6&l** YOU HAVE BEEN DISARMORED ** %victim%"
-    7:
-      chance: 1.8
-      cooldown: 6
-      effects:
-        - "REMOVE_RANDOM_ARMOR %victim%"
-        - "MESSAGE:&6&l** YOU HAVE BEEN DISARMORED ** %victim%"
-    8:
-      chance: 2
-      cooldown: 6
-      effects:
-        - "REMOVE_RANDOM_ARMOR %victim%"
-        - "MESSAGE:&6&l** YOU HAVE BEEN DISARMORED ** %victim%"
 sniper:
   display: "%group-color%Sniper"
   description: "Headshots with bows\ndeal double damage."
