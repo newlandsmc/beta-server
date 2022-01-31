@@ -401,33 +401,6 @@ forcefield:
       cooldown: 13
       effects:
         - "PULL_AWAY:3.0 %victim%"
-epicness:
-  display: "%group-color%Epicness"
-  description: "Gives particles and sound effects."
-  applies-to: "Swords"
-  type: "ATTACK;ATTACK_MOB"
-  group: "SIMPLE"
-  applies:
-    - ALL_SWORD
-  levels:
-    1:
-      chance: 20
-      cooldown: 3
-      effects:
-        - "PARTICLE:SMOKE_LARGE:50:1 %victim%"
-        - "PLAY_SOUND:ENTITY_GHAST_SCREAM"
-    2:
-      chance: 40
-      cooldown: 3
-      effects:
-        - "PARTICLE:SMOKE_LARGE:50:1 %victim%"
-        - "PLAY_SOUND:ENTITY_GHAST_SCREAM"
-    3:
-      chance: 60
-      cooldown: 3
-      effects:
-        - "PARTICLE:SMOKE_LARGE:50:1 %victim%"
-        - "PLAY_SOUND:ENTITY_GHAST_SCREAM"
 famine:
   display: "%group-color%Famine"
   description: "A chance to give your opponent the hunger effect."
@@ -717,23 +690,11 @@ telepathy:
   description: "Automatically places blocks broken\nby tools in your inventory."
   applies-to: "Tools"
   type: "MINING"
-  group: "UNIQUE"
+  group: "LEGENDARY"
   applies:
     - ALL_TOOLS
   levels:
     1:
-      chance: 40
-      effects:
-        - "TP_DROPS"
-    2:
-      chance: 60
-      effects:
-        - "TP_DROPS"
-    3:
-      chance: 80
-      effects:
-        - "TP_DROPS"
-    4:
       effects:
         - "TP_DROPS"
 enderslayer:
@@ -1438,57 +1399,6 @@ poisoned:
       cooldown: 6
       effects:
         - "POTION:POISON:1:120 %attacker%"
-reforged:
-  display: "%group-color%Reforged"
-  description: "Protects weapons and tools durability, items will be take\nlonger to break."
-  applies-to: "Weapons and tools"
-  type: "ATTACK_MOB;MINING"
-  group: "ELITE"
-  applies:
-    - ALL_AXE
-    - ALL_SWORD
-    - ALL_PICKAXE
-    - ALL_SPADE
-  levels:
-    1:
-      chance: 10
-      effects:
-        - "ADD_DURABILITY_ITEM:-1"
-    2:
-      chance: 20
-      effects:
-        - "ADD_DURABILITY_ITEM:-1"
-    3:
-      chance: 30
-      effects:
-        - "ADD_DURABILITY_ITEM:-2"
-    4:
-      chance: 40
-      effects:
-        - "ADD_DURABILITY_ITEM:-2"
-    5:
-      chance: 50
-      effects:
-        - "ADD_DURABILITY_ITEM:-2"
-    6:
-      chance: 60
-      effects:
-        - "ADD_DURABILITY_ITEM:-3"
-    7:
-      chance: 70
-      effects:
-        - "ADD_DURABILITY_ITEM:-3"
-    8:
-      chance: 80
-      effects:
-        - "ADD_DURABILITY_ITEM:-4"
-    9:
-      chance: 90
-      effects:
-        - "ADD_DURABILITY_ITEM:-4"
-    10:
-      effects:
-        - "ADD_DURABILITY_ITEM:-5"
 snare:
   display: "%group-color%Snare"
   description: "Chance to slow and fatigue\nenemies with projectiles."

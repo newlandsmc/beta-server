@@ -467,6 +467,7 @@ white-scroll:
     - '&fPrevents an item from being destroyed'
     - '&fdue to a failed Enchantment Book.'
     - '&ePlace scroll on item to apply.'
+  custom-model-data: 0
 
 enchanter:
   # set to "none" to disable
