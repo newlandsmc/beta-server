@@ -356,7 +356,7 @@ items:
     name: '&aBlockTrak Creator'
     lore:
     - '&7Track how many blocks you break with a tool'
-    - '&7Drag ontop of another item to apply it'
+    - '&7Drag n'' drop onto another item to apply it'
     messages:
       success:
       - '&7You successfully applied &aBlockTrak Creator'
@@ -369,7 +369,7 @@ items:
     name: '&eStatTrak Creator'
     lore:
     - '&7Track how many kills you have with a weapon'
-    - '&7Drag ontop of another item to apply it'
+    - '&7Drag ''n drop onto another item to apply it'
     messages:
       success:
       - '&7You successfully applied &eStatTrak Creator'
@@ -382,7 +382,7 @@ items:
     name: '&3MobTrak Creator'
     lore:
     - '&7track how many mob kills you have with a weapon'
-    - '&7Drag ontop of another item to apply it'
+    - '&7Drag ''n drop onto another item to apply it'
     messages:
       success:
       - '&7You successfully applied &3MobTrak Creator'
@@ -421,7 +421,7 @@ items:
       - '&eIncreases the # of enchantment'
       - '&eslots on a weapon by %new%,'
       - '&eup to a maximum of %max%'
-      - '&7Drag n'' Drop onto an item to apply.'
+      - '&7Drag n'' drop onto an item to apply.'
     armor:
       material: EYE_OF_ENDER
       custom-model-data: 0
@@ -435,7 +435,7 @@ items:
       - '&eIncreases the # of enchantment'
       - '&eslots on a piece of armor by %new%,'
       - '&eup to a maximum of %max%'
-      - '&7Drag n'' Drop onto an item to apply.'
+      - '&7Drag n'' drop onto an item to apply.'
     tool:
       material: EYE_OF_ENDER
       custom-model-data: 0
@@ -449,7 +449,7 @@ items:
       - '&eIncreases the # of enchantment'
       - '&eslots on a tool by %new%,'
       - '&eup to a maximum of %max%'
-      - '&7Drag n'' Drop onto an item to apply.'
+      - '&7Drag n'' drop onto an item to apply.'
 
 white-scroll:
   # Obtain white scroll by giving it with command "/ae giveitem <player> whitescroll"
@@ -687,13 +687,11 @@ enchantment-book:
     custom-model-data: 0
     force-glow: false
   # Variables: %enchant%, %enchant-no-color%, %description%, %applies%, %success%, %destroy%, %color%, %max-level%
-  name: '%group-color%&l&n%enchant-no-color% %level%'
+  name: '%group-color%%enchant-no-color% %level%'
   lore:
   - '&a%success%% Success Rate'
   - '&c%destroy%% Destroy Rate'
-  - '&e%description%'
-  - '&7%applies% Enchantment'
-  - '&7Drag n'' drop onto item to enchant'
+  - '&8%description%'
 
 applies-groups:
   MISC_HELMETS:
