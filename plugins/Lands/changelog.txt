@@ -1,1 +1,6 @@
-- Fixed: no-claims invertion issue
++ Added: Squaremap spawn icon hover and click tooltip support
++ Changed: Remove enchantement table, anvil, cartography table and grindstone from interact_container flag
+- Removed: lands.command.claim.auto permission as its no longer needed
+    You can turn off auto claim in config instead, if you wish to
+- Fixed: Villager interaction cancelled if flag container interaction not set
+- Fixed: Typo in default en-US lang file
