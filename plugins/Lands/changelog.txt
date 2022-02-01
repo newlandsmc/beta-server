@@ -1,6 +1,5 @@
-+ Added: Squaremap spawn icon hover and click tooltip support
-+ Changed: Remove enchantement table, anvil, cartography table and grindstone from interact_container flag
-- Removed: lands.command.claim.auto permission as its no longer needed
-    You can turn off auto claim in config instead, if you wish to
-- Fixed: Villager interaction cancelled if flag container interaction not set
-- Fixed: Typo in default en-US lang file
++ Added: [Suggestions] Able to register custom squaremap spawn icon
+    Please see your config on how to do that.
++ Changed: Jukebox is now under the interact_container flag
+- Fixed: Flower pot protection
+- Fixed: [#1652] Rent signs or holograms not getting removed on land deletion
