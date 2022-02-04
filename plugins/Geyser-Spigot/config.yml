@@ -175,9 +175,9 @@ xbox-achievements-enabled: false
 # https://bstats.org/plugin/server-implementation/GeyserMC
 metrics:
   # If metrics should be enabled
-  enabled: false
+  enabled: true
   # UUID of server, don't change!
-  uuid: b8c42e7a-5cdd-405e-9180-25ff7d8ef557
+  uuid: e263753c-abe9-4d0a-a734-32b6a2120e31
 
 # ADVANCED OPTIONS - DO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING!
 
