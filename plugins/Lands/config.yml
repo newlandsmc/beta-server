@@ -671,7 +671,8 @@ command:
   alias:
     # Set aliases for the /lands command
     # NOTE: This setting requires server reload / restart.
-    lands_list: []
+    lands_list:
+      - l
 
     # Set aliases for the /Wars command
     # This is only needed, if wars is enabled.
@@ -687,9 +688,7 @@ command:
   # They are not case-sensitive.
   blacklist:
     # This affects all players which are standing in a land, where they aren't trusted.
-    nottrusted_list:
-    - sethome
-    - esethome
+    nottrusted_list: []
 
     # This affects all players, which are standing in a land.
     general_list: []
