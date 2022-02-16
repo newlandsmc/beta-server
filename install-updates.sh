@@ -1,3 +1,5 @@
 #!/bin/bash
 
-mv /var/minecraft/pending-updates/* /var/minecraft/server/plugins/
+rsync --remove-source-files --ignore-times -a /var/minecraft/pending-updates/* /var/minecraft/server/plugins/
+
+exit 0
