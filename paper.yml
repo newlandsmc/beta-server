@@ -525,6 +525,13 @@ world-settings:
       items:
         COBBLESTONE: 600
         COBBLED_DEEPSLATE: 600
+        STONE: 600
+        GRAVEL: 600
+        ANDESITE: 600
+        DIORITE: 600
+        GRANITE: 600
+        DIRT: 600
+        DEEPSLATE: 600
         NETHERRACK: 600
         ROTTEN_FLESH: 600
         ENDER_PEARL: 600

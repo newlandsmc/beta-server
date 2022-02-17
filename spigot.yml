@@ -140,7 +140,7 @@ world-settings:
       entity: 10000
     dragon-death-sound-radius: 0
   world_the_end:
-    view-distance: 16
+    view-distance: 12
   worldeditregentempworld:
     verbose: false
 commands:
@@ -153,7 +153,7 @@ commands:
   - summon
   - testforblock
   - tellraw
-  tab-complete: 1
+  tab-complete: 3
   send-namespaced: false
 messages:
   whitelist: 'Server is under maintenance! Discord: semivanilla.com/discord'
