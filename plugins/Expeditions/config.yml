@@ -1,18 +1,72 @@
-
-# Player placeholder support: (playerName), (playerHealth), (playerVotesToday). for other player options please message me, so I can implement them
-# There's also some server placeholders as well: (voteServices) <- returns the number of services enabled
-# This group of messages has that support
-# Please use MiniMessage for color and other formatting
-claim-reminder: "<gold>You found some treasure while you were away! Use <hover:show_text:'<green>Shift click to insert into chat'><insert:/spoils><gradient:#fff200:#ffa700>/spoils</gradient></insert></hover><gold> to claim your treasure."
-add-old-rewards: false # Stack old rewards to new ones, if set to false only the newest rewards will be shown
-vote-services:
-  - "MinecraftServers.org"
-  - "Top Minecraft Servers"
-  - "MCSL"
-  - "PlanetMinecraft.com"
-  - "Best Minecraft Servers"
-  - "Minecraft.Buzz"
-vote-incomplete-message: "<gray>Vote received! [(playerVotesToday)/(voteServices)]"
-vote-complete-message: "<gold>Thank you for voting! Use <hover:show_text:'<green>Shift click to insert into chat'><insert:/spoils><gradient:#fff200:#ffa700>/spoils</gradient></insert></hover><gold> to claim your treasure."
-vote-complete-announce: "<yellow> * (playerName) voted and received an Instant Expedition! Use /vote to vote."
-instant-package-message: "<gold>Thank you for voting! Because you have the instant reward package you do not receive any extra rewards."
+loot: # specifies what files to pull the loot tables from (in loot folder)
+  daily:
+    files:
+      - 'daily.json'
+  premium:
+    files:
+      - 'premium.json'
+  vote:
+    files:
+      - 'vote.json'
+  super-vote:
+    files:
+      - 'super-vote.json'
+services:
+  - 'Test1'
+  - 'Test2'
+  - 'Test3'
+menu:
+  enable-animation: true # enables the 'animation' in the men
+  claim-lore: #lore added when claiming items
+    - '<green>Click to claim this item!'
+  unclaimed-items:
+    - '<green>You still have unclaimed items!'
+    - '<gray>Click to claim them!'
+  items:
+    daily:
+      name: '<green>Daily Expeditions'
+      material: 'BARREL'
+      can-use:
+        lore:
+          - '<green>You have %count% expeditions to claim!'
+          - '<gray>Click to claim the daily expeditions!'
+      cant-use:
+        lore:
+          - '<red>You have already opened the daily expedition today!'
+    premium:
+      name: '<green>Premium Expeditions'
+      material: 'ENDER_CHEST'
+      can-use:
+        lore:
+          - '<green>You have %count% expeditions to claim!'
+          - '<gray>Click to claim the premium expeditions!'
+      cant-use:
+        lore:
+          - '<red>You don''t have any premium expeditions! Buy more at <gradient:yellow:red>store.semivanilla.com</gradient>'
+    vote:
+      name: '<green>Vote'
+      material: 'CHEST'
+      can-use:
+        lore:
+          - '<green>You have %count% expeditions to claim!'
+          - '<gray>Click to claim the vote expeditions!'
+      cant-use:
+        lore:
+          - '<red>You don''t have any vote expeditions! Do <gradient:yellow:red>/vote</gradient> to get more!'
+    super-vote:
+      name: '<green>Super Vote'
+      material: 'CHEST'
+      can-use:
+        lore:
+          - '<green>You have %count% expeditions to claim!'
+          - '<gray>Click to claim the super vote expeditions!'
+      cant-use:
+        lore:
+          - '<red>You don''t have any super vote expeditions! Vote at all sites to obtain one!'
+messages:
+  expeditions-left:
+    - '<green>You still have %count% expeditions to claim! use <gradient:yellow:red>/expeditions</gradient> to claim them!</green>'
+  expeditions-earned-offline:
+    - '<green>You completed %count% Expedition(s) while away! Use <gradient:yellow:red>/spoils</gradient> to claim your rewards.</green>'
+  expeditions-gained:
+    - '<green>You have been given %count% %type% Expedition(s)!'
