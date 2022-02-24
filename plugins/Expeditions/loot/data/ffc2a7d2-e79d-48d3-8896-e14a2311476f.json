@@ -1,0 +1,20 @@
+{
+  "uuid": "ffc2a7d2-e79d-48d3-8896-e14a2311476f",
+  "name": "Unsungsamurai",
+  "lastDailyClaim": {
+    "year": 2022,
+    "month": 2,
+    "day": 23
+  },
+  "totalVotes": 5,
+  "offlineEarned": 0,
+  "expeditions": [],
+  "unclaimedRewards": {},
+  "lastVotes": [
+    {
+      "year": 2022,
+      "month": 2,
+      "day": 23
+    }
+  ]
+}
