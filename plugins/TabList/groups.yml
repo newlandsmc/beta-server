@@ -62,3 +62,5 @@ groups:
     prefix: '&bprestige-3&r - '
   prestige-1:
     prefix: '&eprestige-1&r - '
+  tester:
+    prefix: '&etester&r - '

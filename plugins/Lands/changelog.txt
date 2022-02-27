@@ -6,3 +6,12 @@
 --> Language file (en-US.yml): 
 + String: general.teleportation.bossbar
 + String: general.combat-tag.bossbar
+
+--> Language file (en-US.yml): 
++ Message: command.menu
++ Message: command.menu.invalid
++ Message: nations.message.untrusted
+
+--> GUI file (en-US.yml): 
++ Item: gui.land_various.f.category
++ Item: gui.global_lands.f.toggle-category
