@@ -356,9 +356,6 @@ gui:
         - '&7In this line you can manage'
         - '&7sub areas, trusted players'
         - '&7and invites.'
-        - ''
-        - ' &f• &aLEFT CLICK'
-        - '   &7Teleport to land'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzU3NDcwMTBkODRhYTU2NDgzYjc1ZjYyNDNkOTRmMzRjNTM0NjAzNTg0YjJjYzY4YTQ1YmYzNjU4NDAxMDVmZCJ9fX0=
         slot: 11
       trusted:
@@ -391,9 +388,6 @@ gui:
         - '&7In this line you can manage your land.'
         - '&7You can trust players, assign roles,'
         - '&7edit natural flags.'
-        - ''
-        - ' &f• &aLEFT CLICK'
-        - '   &7Teleport to land'
         material: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTRkNDliYWU5NWM3OTBjM2IxZmY1YjJmMDEwNTJhNzE0ZDYxODU0ODFkNWIxYzg1OTMwYjNmOTlkMjMyMTY3NCJ9fX0=
         slot: 29
       various:
@@ -481,7 +475,7 @@ gui:
       failure_no-spawn:
         name: '&cNo Spawnpoint'
         lore:
-        - '&cThis land has''t set a spawn set.'
+        - '&cThis land hasn''t set a spawn yet.'
     p:
       placeholder_1:
         material: BLACK_STAINED_GLASS_PANE
@@ -2837,7 +2831,7 @@ gui:
         name: '&cNot Allowed'
         lore:
         - '&cYou''re not allowed to'
-        - '&cteleport to any land spawn.'
+        - '&cteleport to any land spawns.'
       failure_no-spawn:
         name: '&cNo Spawn set'
         lore:
