@@ -20,7 +20,7 @@ worldname: ''
 drops:
   '11':
     ==: org.bukkit.inventory.ItemStack
-    v: 2865
+    v: 2975
     type: NETHERITE_SWORD
     meta:
       ==: ItemMeta
@@ -31,7 +31,7 @@ drops:
       Damage: 1020
   '0':
     ==: org.bukkit.inventory.ItemStack
-    v: 2865
+    v: 2975
     type: NETHERITE_SWORD
     meta:
       ==: ItemMeta
@@ -44,7 +44,7 @@ drops:
         DURABILITY: 3
   '1':
     ==: org.bukkit.inventory.ItemStack
-    v: 2865
+    v: 2975
     type: NETHERITE_SWORD
     meta:
       ==: ItemMeta
@@ -52,11 +52,11 @@ drops:
       Damage: 1400
   '2':
     ==: org.bukkit.inventory.ItemStack
-    v: 2865
+    v: 2975
     type: DRAGON_EGG
   '3':
     ==: org.bukkit.inventory.ItemStack
-    v: 2865
+    v: 2975
     type: ELYTRA
     meta:
       ==: ItemMeta
@@ -64,7 +64,7 @@ drops:
       Damage: 200
   '4':
     ==: org.bukkit.inventory.ItemStack
-    v: 2865
+    v: 2975
     type: ELYTRA
     meta:
       ==: ItemMeta
@@ -74,7 +74,7 @@ drops:
         DURABILITY: 3
   '5':
     ==: org.bukkit.inventory.ItemStack
-    v: 2865
+    v: 2975
     type: CROSSBOW
     meta:
       ==: ItemMeta
@@ -83,7 +83,7 @@ drops:
       charged: false
   '6':
     ==: org.bukkit.inventory.ItemStack
-    v: 2865
+    v: 2975
     type: CROSSBOW
     meta:
       ==: ItemMeta
@@ -92,7 +92,7 @@ drops:
       charged: false
   '7':
     ==: org.bukkit.inventory.ItemStack
-    v: 2865
+    v: 2975
     type: CROSSBOW
     meta:
       ==: ItemMeta
@@ -103,7 +103,7 @@ drops:
       charged: false
   '8':
     ==: org.bukkit.inventory.ItemStack
-    v: 2865
+    v: 2975
     type: NETHERITE_SWORD
     meta:
       ==: ItemMeta
@@ -112,7 +112,7 @@ drops:
         DURABILITY: 3
   '9':
     ==: org.bukkit.inventory.ItemStack
-    v: 2865
+    v: 2975
     type: DIAMOND_SWORD
     meta:
       ==: ItemMeta
@@ -122,5 +122,5 @@ drops:
       Damage: 670
   '10':
     ==: org.bukkit.inventory.ItemStack
-    v: 2865
+    v: 2975
     type: DIAMOND_SWORD
