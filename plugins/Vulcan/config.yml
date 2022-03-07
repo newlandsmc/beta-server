@@ -143,6 +143,14 @@ client-brand-alerts:
   # 'forge' will block Forge, 'lunar' will block lunar, etc.
   whitelisted-client-brands: []
 connection:
+  desync:
+    kick-enabled: true
+    max-ticks: 300
+    kick-message: 'Internal Exception: io.netty.handler.timeout.ReadTimeoutException'
+    staff-alert-message: '%prefix% &c%player% &7was kicked for being out of sync with
+      the server! &7(&c%ticks% &7ticks)'
+    console-message: '[Vulcan] &c%player% &7was kicked for being out of sync with
+      the server! &7(&c%ticks% &7ticks)'
   transaction:
     kick-enabled: true
     max-delay: 45000

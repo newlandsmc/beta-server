@@ -1,6 +1,6 @@
-+ Added: Don't send bossbar if text is empty
-+ Added: {world}, {x}, {y}, {z} placeholders to capture point bossbars
-+ Changed: [#1730] Include bank balance in cashback placeholder at /lands delete
-- Fixed: [#1723] own lands counting towards lands.lands in invite menu
-- Fixed: [#1733] Cancel interaction on selection
-- Fixed: Combat tag time not extending
++ Added: [#1746] Remove color from /lands admin land <land> parameter to allow papi + console commands
+- Fixed: Wrong claim fail message, if not allowed to claim
+- Fixed: [#1738] Empty bossbar message causing teleport to fail
+- Fixed: Double region warning message at selection
+- Fixed: [#1737] Category not saving when using JSON
+- Fixed: eco-format not applied to /unclaim and a few other messages

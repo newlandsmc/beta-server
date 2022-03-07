@@ -241,7 +241,8 @@ land:
     mute-global: false
 
   # Should chunks be regenerated at unclaim?
-  # NOTE: Only supported when using the latest paper 1.18.1+.
+  # NOTE: This option is deprecated, it is recommended to use our plugin WildRegeneration,
+  # which provides more functionality, instead.
   regen: false
 
 

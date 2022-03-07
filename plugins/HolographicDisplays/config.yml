@@ -1,8 +1,8 @@
-# .
-# .  Read the tutorial at: http://dev.bukkit.org/bukkit-plugins/holographic-displays/
-# .
-# .  Plugin created by filoghost.
-# .
+# 
+# Plugin page: https://dev.bukkit.org/projects/holographic-displays
+# 
+# Created by filoghost.
+# 
 
 space-between-lines: 0.02
 quick-edit-commands: true
@@ -29,8 +29,3 @@ debug: false
 image-rendering:
   transparent-pixel: '&7 [|] '
   solid-pixel: '[x]'
-images:
-  symbol: '[x]'
-  transparency:
-    space: ' [|] '
-    color: '&7'
