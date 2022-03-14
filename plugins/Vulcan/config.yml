@@ -537,7 +537,7 @@ settings:
   # Whether or not we should ignore flags for players whose usernames start with a certain character/string of characters
   ignore-geyser-prefixes: true
   # The string to be ignored - all players names who start with a * will not be flagged (case sensitive if not symbols)
-  ignore-geyser-prefix: "."
+  ignore-geyser-prefix: "*"
   # The max violation (violations above this won't be sent)
   max-alert-violation: 250
   # How long should people be exempt from checks when they were in /fly (default = 40 ticks, 2 seconds)

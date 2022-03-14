@@ -411,6 +411,10 @@ message:
     level:
       up: '&a{object} leveled up! New level: {level}'
       down: '&c{object} leveled down. New level: {level}'
+    elytra:
+      counter: '#t#&6Elytra disabling[newline]&7in &3{sec} &7second(s)'
+      disabled: '&cYour elytra gliding has been disabled. &7You''re not allowed to
+        use elytras here.'
   teleportation:
     already: '&cYou can''t start a second teleportation. There''s already a teleportation
       in progress.'
@@ -1129,6 +1133,8 @@ wars:
           {y}, {z}[newline]&aJoin them to capture the area.'
         defender: '#t#&cCapture Point[newline]&cplaced in our land: {land}, {x}, {y},
           {z}[newline]&cGo there to join the defenders.'
+        overlap: '&cCapture blocks must be placed in a way that the beacon wouldn''t
+          overlap with the wilderness.'
       destroy:
         presense: '&cYou currently can''t break this capture point. &7There are still&3
           {players} &7enemy players in this area.'

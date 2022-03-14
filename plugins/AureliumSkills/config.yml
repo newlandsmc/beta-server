@@ -68,7 +68,7 @@ boss-bar:
   - FORGING YELLOW SEGMENTED_10
 base-mana: 20
 enable-roman-numerals: true
-damage-holograms: false
+damage-holograms: true
 damage-holograms-scaling: true
 damage-holograms-decimal:
   display-when-less-than: 1

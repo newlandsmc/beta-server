@@ -472,10 +472,41 @@ gui:
         lore:
         - '&cYou''re not allowed to teleport'
         - '&cto any land spawn.'
-      failure_no-spawn:
-        name: '&cNo Spawnpoint'
+      failure_cost:
+        name: '&4&lNot enough Money'
         lore:
-        - '&cThis land hasn''t set a spawn yet.'
+        - '&7You need&c {cost} &7to pay for'
+        - '&7the teleportation.'
+      failure_enter:
+        name: '&4&lNot Allowed to Enter'
+        lore:
+        - '&cYou''re not allowed to enter'
+        - '&cthe area in which the land'
+        - '&cspawn is located.'
+        - ''
+        - ' &8• &7The land owner can give your'
+        - '   &7role permission to do so.'
+      failure_cooldown:
+        name: '&4&lCooldown'
+        lore:
+        - '&cYou must wait another&4 {time}'
+        - '&cbefore you can teleport to the'
+        - '&cspawn again.'
+      failure_teleport:
+        name: '&4&lNot Allowed to Teleport'
+        lore:
+        - '&cYou''re not allowed to teleport'
+        - '&cto &nthis &cland spawn.'
+        - ''
+        - ' &8• &7The land owner can give your'
+        - '   &7role permission to do so.'
+      failure_none:
+        name: '&4&lNo Spawnpoint'
+        lore:
+        - '&cThis land has''t set a spawn set.'
+        - ''
+        - ' &8• &7Set spawn point:'
+        - '   &e/lands setspawn'
     p:
       placeholder_1:
         material: BLACK_STAINED_GLASS_PANE
@@ -856,33 +887,31 @@ gui:
     title: '{area} > Trusted Players'
     size: 45
     l:
-      object_land:
-        name: '&e{player}'
+      land:
+        name: '&e&l{player}'
         lore:
-        - '&fTrusted in these areas:'
-        - '&f{areas}'
+        - '&7Trusted in these areas:'
+        - '{areas}'
         - ''
-        - ' &f• &aMIDDLE CLICK'
-        - '   &7More information'
-        - ' &f• &cKEY Q'
-        - '   &7Untrust'
+        - '&8✖ &3KEY Q'
+        - '   &7Untrust in the whole land.'
+        - '&8✖ &7Click for more information.'
         material: PLAYER_HEAD
         from: 10
         to: 36
-      object_area:
-        name: '&e{player}'
+      area:
+        name: '&e&l{player}'
         lore:
-        - '&fRole: {role}'
+        - '&7Role: {role}'
         - ''
-        - ' &f• &aLEFT CLICK'
+        - '&8✖ &bSHIFT + LEFT CLICK'
         - '   &7▲ Promote'
-        - ' &f• &cRIGHT CLICK'
+        - '&8✖ &9SHIFT + RIGHT CLICK'
         - '   &7▼ Demote'
         - ''
-        - ' &f• &aMIDDLE CLICK'
-        - '   &7More information'
-        - ' &f• &cKEY Q'
-        - '   &7Untrust in this area'
+        - '&8✖ &3KEY Q'
+        - '   &7Untrust in this area.'
+        - '&8✖ &7Click for more information.'
         material: PLAYER_HEAD
         from: 10
         to: 36
@@ -1008,26 +1037,25 @@ gui:
     title: '{area} > Banned Players'
     size: 45
     l:
-      object_all:
-        name: '&c{player}'
+      all:
+        name: '&e&l{player}'
         lore:
-        - '&fBanned in these areas:'
-        - '&f{areas}'
+        - '&7Banned in these areas:'
+        - '{areas}'
         - ''
-        - ' &f• &aMIDDLE CLICK:'
-        - '   &7Get more information about'
-        - '   &7this player'
+        - '&8✖ &7Click to get more information'
+        - '   &7about this player.'
         material: PLAYER_HEAD
         from: 10
         to: 36
-      object:
-        name: '&c{player}'
+      area:
+        name: '&e&l{player}'
         lore:
-        - '&fThis player is banned'
-        - '&fin this area.'
+        - '&7This player is banned'
+        - '&7in this area.'
         - ''
-        - ' &f• &aMIDDLE CLICK:'
-        - '   &7Get more information'
+        - '&8✖ &7Click to get more information'
+        - '   &7about this player.'
         material: PLAYER_HEAD
         from: 10
         to: 36
@@ -1494,18 +1522,6 @@ gui:
         material: RED_STAINED_GLASS_PANE
         slot: 37
     l:
-      general:
-        name: '&6{flag}'
-        lore:
-        - '&f{desc}'
-        - ''
-        - '&7Current Setting: {enabled}'
-        - ''
-        - ' &f• &cLEFT CLICK'
-        - '   &7Toggle'
-        material: NAME_TAG
-        from: 10
-        to: 36
       block_break:
         name: '&6Break Blocks'
         lore:
@@ -1951,6 +1967,49 @@ gui:
         material: GOLD_NUGGET
         from: 10
         to: 36
+      general_admin:
+        name: '&6&l{flag}: {enabled}'
+        lore:
+        - '&8✖ &7Click to toggle:'
+        - '   &7Unlocked: {unlocked}'
+        - ''
+        - '&7Description:'
+        - ' &8• {desc}'
+        - ''
+        - ' &8• &7This is an admin flag. It only applies'
+        - '   &7to admin lands and &e/lands admin wilderness&7.'
+        material: NAME_TAG
+        from: 10
+        to: 36
+      general_player:
+        name: '&6&l{flag}: {enabled}'
+        lore:
+        - '&8✖ &7Click to toggle:'
+        - '   &7Unlocked: {unlocked}'
+        - ''
+        - '&7Description:'
+        - '{desc}'
+        material: NAME_TAG
+        from: 10
+        to: 36
+      elytra:
+        name: '&6&lElytra Usage: {enabled}'
+        lore:
+        - '&8✖ &7Allow this role to use elytras'
+        - '   &7in order to fly in this area?'
+        - '   &7Unlocked: {unlocked}'
+        material: ELYTRA
+        from: 10
+        to: 36
+      plant:
+        name: '&6&lPlant: {enabled}'
+        lore:
+        - '&8✖ &7Allow this role to plant'
+        - '   &7crops, saplings, berries,'
+        - '   &7sugar cane etc.?'
+        material: IRON_HOE
+        from: 10
+        to: 36
     a:
       failure_permission:
         name: '&cNot allowed'
@@ -2020,18 +2079,6 @@ gui:
         material: RED_STAINED_GLASS_PANE
         slot: 37
     l:
-      general:
-        name: '&6{flag}'
-        lore:
-        - '&f{desc}'
-        - ''
-        - '&7Current Setting: {enabled}'
-        - ''
-        - ' &f• &cLEFT CLICK'
-        - '   &7Toggle'
-        material: NAME_TAG
-        from: 10
-        to: 36
       entity_griefing:
         name: '&6Entity Griefing'
         lore:
@@ -2160,6 +2207,31 @@ gui:
         - ' &f• &cLEFT CLICK'
         - '   &7Toggle'
         material: SNOWBALL
+        from: 10
+        to: 36
+      general_admin:
+        name: '&6&l{flag}: {enabled}'
+        lore:
+        - '&8✖ &7Click to toggle:'
+        - '   &7Unlocked: {unlocked}'
+        - ''
+        - '&7Description:'
+        - ' &8• {desc}'
+        - ''
+        - ' &8• &7This is an admin flag. It only applies'
+        - '   &7to admin lands and &e/lands admin wilderness&7.'
+        material: NAME_TAG
+        from: 10
+        to: 36
+      general_player:
+        name: '&6&l{flag}: {enabled}'
+        lore:
+        - '&8✖ &7Click to toggle:'
+        - '   &7Unlocked: {unlocked}'
+        - ''
+        - '&7Description:'
+        - '{desc}'
+        material: NAME_TAG
         from: 10
         to: 36
     a:
@@ -2832,17 +2904,41 @@ gui:
         lore:
         - '&cYou''re not allowed to'
         - '&cteleport to any land spawns.'
-      failure_no-spawn:
-        name: '&cNo Spawn set'
+      failure_cost:
+        name: '&4&lNot enough Money'
         lore:
-        - '&cThis land hasn''t set a spawn yet.'
-      failure_teleport_cost:
-        name: '&cCost'
+        - '&7You need&c {cost} &7to pay for'
+        - '&7the teleportation.'
+      failure_enter:
+        name: '&4&lNot Allowed to Enter'
         lore:
-        - '&cYou can''t afford it to'
-        - '&cteleport to this land spawn.'
+        - '&cYou''re not allowed to enter'
+        - '&cthe area in which the land'
+        - '&cspawn is located.'
         - ''
-        - '&7You need {costs}&7.'
+        - ' &8• &7The land owner can give your'
+        - '   &7role permission to do so.'
+      failure_cooldown:
+        name: '&4&lCooldown'
+        lore:
+        - '&cYou must wait another&4 {time}'
+        - '&cbefore you can teleport to the'
+        - '&cspawn again.'
+      failure_teleport:
+        name: '&4&lNot Allowed to Teleport'
+        lore:
+        - '&cYou''re not allowed to teleport'
+        - '&cto &nthis &cland spawn.'
+        - ''
+        - ' &8• &7The land owner can give your'
+        - '   &7role permission to do so.'
+      failure_none:
+        name: '&4&lNo Spawnpoint'
+        lore:
+        - '&cThis land has''t set a spawn set.'
+        - ''
+        - ' &8• &7Set spawn point:'
+        - '   &e/lands setspawn'
     p:
       placeholder_1:
         material: BLACK_STAINED_GLASS_PANE
@@ -3413,6 +3509,47 @@ gui:
         material: BLUE_STAINED_GLASS_PANE
         from: 21
         to: 21
+    a:
+      failure_cost:
+        name: '&4&lNot enough Money'
+        lore:
+        - '&7You need&c {cost} &7to pay for'
+        - '&7the teleportation.'
+      failure_enter:
+        name: '&4&lNot Allowed to Enter'
+        lore:
+        - '&cYou''re not allowed to enter'
+        - '&cthe area in which the capitals'
+        - '&cspawn is located.'
+        - ''
+        - ' &8• &7The capitals owner can give your'
+        - '   &7role permission to do so.'
+      failure_cooldown:
+        name: '&4&lCooldown'
+        lore:
+        - '&cYou must wait another&4 {time}'
+        - '&cbefore you can teleport to the'
+        - '&cspawn again.'
+      failure_teleport:
+        name: '&4&lNot Allowed to Teleport'
+        lore:
+        - '&cYou''re not allowed to teleport'
+        - '&cto &nthe &ccapitals spawn.'
+        - ''
+        - ' &8• &7The capitals owner can give your'
+        - '   &7role permission to do so.'
+      failure_teleport_permission:
+        name: '&4&lMissing Permission'
+        lore:
+        - '&cYou''re missing the permission to'
+        - '&cteleport to &nany&c land spawn.'
+      failure_none:
+        name: '&4&lNo Spawnpoint'
+        lore:
+        - '&cThe capital has''t set a spawn set.'
+        - ''
+        - ' &8• &7Set spawn point:'
+        - '   &e/lands setspawn'
   
   nation_lands:
     title: '&8Nation Members'
