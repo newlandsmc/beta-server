@@ -1,0 +1,52 @@
+name:default
+shape:CIRCLE
+world:world
+cr:64
+cx:0
+cz:0
+minY:48
+maxY:96
+requireSkyLight:true
+uniquePlacements:false
+iter:0
+badLocations:
+  -78301,1
+  -89599,1
+  -101267,1
+  -108699,1
+  -110584,1
+  -130109,1
+  -135941,1
+  -144850,1
+  -155341,1
+  -156895,1
+biomes:
+  DARK_FOREST:
+    -0,1
+    -104636,1
+    -128902,1
+    -181015,1
+  BIRCH_FOREST:
+  TAIGA:
+    -0,1
+    -116326,1
+  OCEAN:
+  SNOWY_PLAINS:
+    -0,1
+    -30113,1
+  SAVANNA_PLATEAU:
+  RIVER:
+  LUKEWARM_OCEAN:
+  PLAINS:
+    -0,1
+    -106654,1
+  SUNFLOWER_PLAINS:
+    -0,1
+    -154484,1
+  FOREST:
+    -0,1
+    -72976,1
+    -128615,1
+  OLD_GROWTH_BIRCH_FOREST:
+    -0,1
+    -100924,1

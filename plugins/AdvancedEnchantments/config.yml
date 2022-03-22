@@ -718,6 +718,7 @@ applies-groups:
   MISC_HELMETS:
   - CARVED_PUMPKIN
   SKULL_ITEM: []
+  TRIDENTS: []
 
 settings:
   # If true, grindstones will remove custom enchants from items and return a small amount of XP.
@@ -873,3 +874,4 @@ settings:
   held-check-frequency: 5
   # Should block breaking effects, such as TRENCH or TP_DROPS give McMMO EXP?
   give-mcmmo-with-custom-block-breaks: false
+  held-shift-cross-update: true

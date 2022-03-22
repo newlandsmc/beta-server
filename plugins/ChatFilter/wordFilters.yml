@@ -66,6 +66,19 @@ ChatFilter:
     Action:
       - <SendMessage>&cSome words are too sensitive to be appropriate for a Minecraft server. Please do not use that language here.
     AddedBy: SVMC
+  help:
+    Enabled: true
+    Warn:
+      Staff: false
+      Player: false
+      Console: true
+    Regex: ((how|what) (are|does|do)).*(land|skills?|abilit(y|ies)|mana)
+    CancelChat:
+      Cancel: false
+      Replace: false
+      ReplaceWith: ''
+    Action:
+      - '<RunCommand>broadcast &f[&cBot&f] &7Help&f: %player%, use /help to access an in-game help book or our website for help!'
 #  spam:
 #    Enabled: true
 #    Warn:
